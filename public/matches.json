@@ -1,343 +1,126 @@
 [
   {
-    "id": "LMX001",
-    "date": "2025-11-20",
-    "time": "00:00",
-    "league": "Liga MX",
-    "homeTeam": "Pachuca",
-    "awayTeam": "Pumas UNAM",
-    "fixture_verification_url": "https://www.google.com/search?q=Liga+MX+Pachuca+vs+Pumas+UNAM+2025-11-20",
-    "prediction": {
-      "homeWin": 55,
-      "draw": 25,
-      "awayWin": 20
-    },
-    "safeBet": {
-      "title": "Pachuca Win (1X2)",
-      "odds": "1.75",
-      "description": "Pachuca playing at home with a slight edge in this playoff match."
-    },
-    "valueBet": {
-      "title": "Pachuca to win and Both Teams to Score (Yes)",
-      "odds": "3.20",
-      "description": "Pachuca's offensive capabilities at home, but Pumas are capable of scoring."
-    },
-    "stats": {
-      "homeForm": "WDLWW",
-      "awayForm": "DLWLW",
-      "h2h": "Pachuca has a slight edge in recent H2H encounters.",
-      "keyInsights": "Crucial Apertura 2025 Play-In match. Pachuca aims to leverage home advantage. Pumas will be looking for an upset."
-    },
-    "reasoning": "Pachuca hosts Pumas UNAM in a critical Liga MX Apertura 2025 Play-In match. Pachuca has a stronger home record and will be motivated to secure a win. Pumas have shown they can be dangerous, making a home win with both teams scoring a plausible outcome. The percentages reflect Pachuca's favored status."
-  },
-  {
-    "id": "LMX002",
-    "date": "2025-11-20",
-    "time": "02:00",
-    "league": "Liga MX",
-    "homeTeam": "Club Tijuana",
-    "awayTeam": "FC Juárez",
-    "fixture_verification_url": "https://www.google.com/search?q=Liga+MX+Club+Tijuana+vs+FC+Juarez+2025-11-20",
-    "prediction": {
-      "homeWin": 45,
-      "draw": 30,
-      "awayWin": 25
-    },
-    "safeBet": {
-      "title": "Double Chance 1X (Tijuana or Draw)",
-      "odds": "1.35",
-      "description": "Tijuana at home, but Juárez can be a tough opponent."
-    },
-    "valueBet": {
-      "title": "Draw and Under 2.5 Goals",
-      "odds": "3.50",
-      "description": "Tight playoff match, could be low-scoring."
-    },
-    "stats": {
-      "homeForm": "LWDLD",
-      "awayForm": "DWLLD",
-      "h2h": "Recent H2H has been close, with many draws.",
-      "keyInsights": "Another Liga MX Apertura 2025 Play-In encounter. Tijuana needs to capitalize on home support. Juárez will aim to frustrate their opponents."
-    },
-    "reasoning": "Club Tijuana faces FC Juárez in a vital Liga MX Apertura 2025 Play-In game. Both teams have been inconsistent, but Tijuana's home advantage might give them a slight edge. A draw is a strong possibility in such a crucial fixture. The probabilities lean towards a close contest."
-  },
-  {
-    "id": "BRA001",
+    "id": "juventus-cruzeiro-20251120",
     "date": "2025-11-20",
     "time": "19:00",
-    "league": "Brasileirão",
+    "league": "Brasileirão Série A",
     "homeTeam": "Juventude",
     "awayTeam": "Cruzeiro",
-    "fixture_verification_url": "https://www.google.com/search?q=Brasileirão+Juventude+vs+Cruzeiro+2025-11-20",
+    "fixture_verification_url": "https://www.flashscore.com/soccer/brazil/serie-a-betano/juventude-cruzeiro-rXwA3XfD/",
     "prediction": {
-      "homeWin": 30,
-      "draw": 35,
-      "awayWin": 35
+      "homeWin": 25,
+      "draw": 28,
+      "awayWin": 47
     },
     "safeBet": {
-      "title": "Double Chance 1X (Juventude or Draw)",
-      "odds": "1.60",
-      "description": "Juventude at home can be tricky, Cruzeiro is also inconsistent."
+      "title": "Draw No Bet - Cruzeiro",
+      "odds": "1.35",
+      "description": "Cruzeiro's strong away form and unbeaten run make them favorites, and this bet offers protection if the match ends in a draw."
     },
     "valueBet": {
-      "title": "Under 2.5 Goals",
-      "odds": "1.70",
-      "description": "Both teams have struggled with consistent scoring."
-    },
-    "stats": {
-      "homeForm": "DWLDD",
-      "awayForm": "LWDDD",
-      "h2h": "Head-to-head record is fairly balanced.",
-      "keyInsights": "Late season Brasileirão match with both teams fighting for position. Juventude's home form is crucial."
-    },
-    "reasoning": "Juventude hosts Cruzeiro in a Brasileirão fixture where both teams are looking to secure points. Neither team has been particularly dominant recently, suggesting a close match. The draw percentage is significant given the teams' recent form and league standing. The probabilities reflect this uncertainty."
-  },
-  {
-    "id": "BRA002",
-    "date": "2025-11-20",
-    "time": "21:00",
-    "league": "Brasileirão",
-    "homeTeam": "Bahia",
-    "awayTeam": "Fortaleza",
-    "fixture_verification_url": "https://www.google.com/search?q=Brasileirão+Bahia+vs+Fortaleza+2025-11-20",
-    "prediction": {
-      "homeWin": 40,
-      "draw": 30,
-      "awayWin": 30
-    },
-    "safeBet": {
-      "title": "Bahia Win (1X2)",
-      "odds": "2.10",
-      "description": "Bahia has a good home record and motivation."
-    },
-    "valueBet": {
-      "title": "Bahia to Win and Over 1.5 Goals",
+      "title": "Cruzeiro to Win to Nil",
       "odds": "2.75",
-      "description": "Bahia's attacking potential at home against a Fortaleza side that can concede."
+      "description": "Cruzeiro's defensive solidity and Juventude's struggles to score at home present an opportunity for a higher-reward bet."
     },
     "stats": {
-      "homeForm": "WLDDW",
-      "awayForm": "DLDWL",
-      "h2h": "Recent H2H matches have been closely contested.",
-      "keyInsights": "Important Brasileirão fixture with both teams vying for continental spots. Bahia's home advantage is a key factor."
+      "homeForm": "D L L W L",
+      "awayForm": "W D W W D",
+      "h2h": "Cruzeiro has won 9 of the last 17 meetings, with Juventude winning 6 and 2 draws. Cruzeiro won the last encounter 4-0.",
+      "keyInsights": "Cruzeiro are in excellent form, unbeaten in their last eight league games and third in the league. Juventude are fighting relegation and have struggled at home."
     },
-    "reasoning": "Bahia takes on Fortaleza in a crucial Brasileirão clash. Bahia has a strong incentive to win at home to secure a better league standing, while Fortaleza will aim to disrupt their plans. The probabilities favor Bahia due to their home form and current motivation."
+    "reasoning": "Cruzeiro's superior form and league position make them the clear favorites. While Juventude can be resilient at home, Cruzeiro's unbeaten streak and historical advantage in this fixture suggest they are more likely to secure a win."
   },
   {
-    "id": "BRA003",
+    "id": "corinthians-sao-paulo-20251120",
     "date": "2025-11-20",
     "time": "22:30",
-    "league": "Brasileirão",
+    "league": "Brasileirão Série A",
     "homeTeam": "Corinthians",
     "awayTeam": "São Paulo",
-    "fixture_verification_url": "https://www.google.com/search?q=Brasileirão+Corinthians+vs+São+Paulo+2025-11-20",
+    "fixture_verification_url": "https://www.soccerway.com/matches/brazil/serie-a-betano/corinthians-vs-sao-paulo/947334/",
     "prediction": {
-      "homeWin": 40,
+      "homeWin": 43,
       "draw": 30,
-      "awayWin": 30
+      "awayWin": 27
     },
     "safeBet": {
       "title": "Double Chance 1X (Corinthians or Draw)",
-      "odds": "1.55",
-      "description": "A classic derby with high stakes, Corinthians at home is usually strong."
+      "odds": "1.30",
+      "description": "Corinthians have a decent home record, and São Paulo have struggled on the road. This bet provides a safety net."
     },
     "valueBet": {
-      "title": "Both Teams to Score (Yes)",
-      "odds": "1.90",
-      "description": "Both Corinthians and São Paulo have capable offenses and can concede."
+      "title": "Both Teams to Score: Yes",
+      "odds": "1.80",
+      "description": "Both teams have shown attacking intent, and their recent meetings have often produced goals."
     },
     "stats": {
-      "homeForm": "LWDWW",
-      "awayForm": "WWDWL",
-      "h2h": "The 'Clássico Paulista' derby is historically tight with many draws.",
-      "keyInsights": "A major derby in Brazilian football. Both teams are fighting for continental qualification. High intensity expected."
+      "homeForm": "W L D W L",
+      "awayForm": "L D W L D",
+      "h2h": "São Paulo has dominated recent H2H encounters, winning the last three meetings with an 8-2 aggregate score. Overall, Corinthians has a slight edge in their 79 meetings.",
+      "keyInsights": "This is a significant derby. Corinthians are in 13th place, with São Paulo in 9th. São Paulo's away form is a concern, while Corinthians have been inconsistent."
     },
-    "reasoning": "This is one of the biggest derbies in Brazil, 'O Majestoso,' between Corinthians and São Paulo. Both teams are in need of points for continental qualification, ensuring a highly competitive match. Historically, these encounters are often close, making a draw a strong possibility. The probabilities reflect the fierce rivalry and the importance of the fixture."
+    "reasoning": "While São Paulo has a superior recent head-to-head record, Corinthians' home advantage and the historical significance of the derby make this a closely contested match. Corinthians' need for points to climb the table could see them fight hard at home."
   },
   {
-    "id": "BRA004",
+    "id": "bahia-fortaleza-20251120",
     "date": "2025-11-20",
-    "time": "00:30",
-    "league": "Brasileirão",
-    "homeTeam": "Grêmio",
-    "awayTeam": "Vasco da Gama",
-    "fixture_verification_url": "https://www.google.com/search?q=Brasileirão+Grêmio+vs+Vasco+da+Gama+2025-11-20",
+    "time": "21:00",
+    "league": "Brasileirão Série A",
+    "homeTeam": "Bahia",
+    "awayTeam": "Fortaleza",
+    "fixture_verification_url": "https://www.sofascore.com/bahia-fortaleza-ec/UbsbskL",
     "prediction": {
-      "homeWin": 50,
+      "homeWin": 59,
       "draw": 25,
-      "awayWin": 25
+      "awayWin": 15
     },
     "safeBet": {
-      "title": "Grêmio Win (1X2)",
-      "odds": "1.95",
-      "description": "Grêmio's home form and desperation for points should give them an edge."
-    },
-    "valueBet": {
-      "title": "Grêmio to Win and Under 2.5 Goals",
-      "odds": "3.10",
-      "description": "Grêmio can be defensive at home, and Vasco has struggled to score."
-    },
-    "stats": {
-      "homeForm": "DLDWD",
-      "awayForm": "LLLWD",
-      "h2h": "Grêmio has a historical edge in head-to-head matches.",
-      "keyInsights": "Crucial match for both teams in their fight for Copa Libertadores spots. Vasco is in a poor run of form."
-    },
-    "reasoning": "Grêmio hosts Vasco da Gama in a match critical for Copa Libertadores qualification. Grêmio, playing at home, will be highly motivated to secure three points, especially given Vasco's recent slump. Grêmio's historical H2H advantage and home form make them favorites. The probabilities reflect Grêmio's stronger position and immediate need for a win."
-  },
-  {
-    "id": "KOR001",
-    "date": "2025-11-20",
-    "time": "11:00",
-    "league": "K League 1",
-    "homeTeam": "FC Anyang",
-    "awayTeam": "Suwon FC",
-    "fixture_verification_url": "https://www.google.com/search?q=K+League+1+FC+Anyang+vs+Suwon+FC+2025-11-20",
-    "prediction": {
-      "homeWin": 35,
-      "draw": 35,
-      "awayWin": 30
-    },
-    "safeBet": {
-      "title": "Double Chance 1X (FC Anyang or Draw)",
-      "odds": "1.50",
-      "description": "FC Anyang has secured safety and plays at home, Suwon FC is fighting to avoid relegation."
+      "title": "Bahia to Win",
+      "odds": "1.65",
+      "description": "Bahia's strong home form and higher league position make them the favorites."
     },
     "valueBet": {
       "title": "Under 2.5 Goals",
-      "odds": "1.75",
-      "description": "A match with high stakes for Suwon FC, likely to be tight."
+      "odds": "1.81",
+      "description": "While both teams can score, Bahia's defensive solidity at home and Fortaleza's offensive struggles away could lead to a tighter game than expected."
     },
     "stats": {
-      "homeForm": "WLWDL",
-      "awayForm": "LLDWL",
-      "h2h": "H2H has been even in recent encounters.",
-      "keyInsights": "Crucial match for Suwon FC to avoid relegation. FC Anyang is safe but will want to finish strong at home."
+      "homeForm": "W W W D L",
+      "awayForm": "D D L D W",
+      "h2h": "Bahia has a slight edge in recent meetings (2 wins, 2 draws, 1 loss in last 5) and a historical advantage in their 27 meetings (9 wins for Bahia, 8 for Fortaleza, 10 draws).",
+      "keyInsights": "Bahia is fighting for Copa Libertadores qualification, while Fortaleza is battling relegation. Bahia has won their last five home matches consecutively. Fortaleza is on a five-match unbeaten run but has drawn four of those."
     },
-    "reasoning": "FC Anyang hosts Suwon FC in a match with significant relegation implications for Suwon. While Anyang is safe, they will play for pride at home. Suwon FC's desperation to avoid the drop could lead to a cautious approach, making a low-scoring game probable. The probabilities suggest a very close contest."
+    "reasoning": "Bahia's strong home record and clear motivation to secure a Libertadores spot give them a significant advantage. Fortaleza's recent draw streak shows resilience, but their poor away form and struggles against Bahia at home make them underdogs."
   },
   {
-    "id": "KOR002",
+    "id": "ceara-internacional-20251120",
     "date": "2025-11-20",
-    "time": "11:00",
-    "league": "K League 1",
-    "homeTeam": "FC Seoul",
-    "awayTeam": "Sangju Sangmu",
-    "fixture_verification_url": "https://www.google.com/search?q=K+League+1+FC+Seoul+vs+Sangju+Sangmu+2025-11-20",
+    "time": "16:30",
+    "league": "Brasileirão Série A",
+    "homeTeam": "Ceara",
+    "awayTeam": "Internacional",
+    "fixture_verification_url": "https://www.flashscore.com/soccer/brazil/serie-a-betano/ceara-internacional-zL7XbH6e/",
     "prediction": {
-      "homeWin": 45,
-      "draw": 25,
-      "awayWin": 30
+      "homeWin": 42,
+      "draw": 31,
+      "awayWin": 27
     },
     "safeBet": {
-      "title": "FC Seoul Win (1X2)",
-      "odds": "2.00",
-      "description": "FC Seoul at home against Sangju Sangmu, who might have rotated players."
+      "title": "Ceara Draw No Bet",
+      "odds": "1.60",
+      "description": "Ceara has a slight edge at home, and this bet protects against a draw."
     },
     "valueBet": {
-      "title": "FC Seoul to Win to Nil",
-      "odds": "3.10",
-      "description": "Sangju Sangmu may have less motivation if they've secured their position."
+      "title": "Under 2.5 Goals",
+      "odds": "1.52",
+      "description": "Both teams have struggled for consistent goals, and their recent matches have often been low-scoring."
     },
     "stats": {
-      "homeForm": "DWLWW",
-      "awayForm": "WDLDW",
-      "h2h": "FC Seoul has a strong record against Sangju Sangmu.",
-      "keyInsights": "Penultimate round of K League 1. FC Seoul are fighting for higher placings, while Sangju Sangmu might be less pressured."
+      "homeForm": "W D L L W",
+      "awayForm": "L L D L W",
+      "h2h": "Internacional has a slight edge in head-to-head matches, with 8 wins to Ceara's 6 in 19 meetings.",
+      "keyInsights": "Ceara is 12th in the league, while Internacional is 15th. Internacional is on a winless streak away from home. Ceara has shown slightly better recent form."
     },
-    "reasoning": "FC Seoul welcomes Sangju Sangmu in a K League 1 fixture. FC Seoul is in good form and competing for better league positions, whereas Sangju Sangmu's objectives might be less pressing depending on their current standing. FC Seoul's home advantage and historical H2H advantage make them favorites. The probabilities reflect this."
-  },
-  {
-    "id": "KOR003",
-    "date": "2025-11-20",
-    "time": "13:30",
-    "league": "K League 1",
-    "homeTeam": "Daejeon Citizen",
-    "awayTeam": "Gangwon FC",
-    "fixture_verification_url": "https://www.google.com/search?q=K+League+1+Daejeon+Citizen+vs+Gangwon+FC+2025-11-20",
-    "prediction": {
-      "homeWin": 55,
-      "draw": 25,
-      "awayWin": 20
-    },
-    "safeBet": {
-      "title": "Daejeon Citizen Win (1X2)",
-      "odds": "1.80",
-      "description": "Daejeon's strong form and home advantage against a Gangwon side with other priorities."
-    },
-    "valueBet": {
-      "title": "Daejeon Citizen and Over 2.5 Goals",
-      "odds": "2.90",
-      "description": "Daejeon's attacking prowess and Gangwon's potential for conceding."
-    },
-    "stats": {
-      "homeForm": "WWDDW",
-      "awayForm": "LDWDW",
-      "h2h": "Daejeon has been unbeaten in their last six against Gangwon.",
-      "keyInsights": "Important match for Daejeon in their pursuit of second place. Gangwon might be prioritizing their AFC Champions League campaign."
-    },
-    "reasoning": "Daejeon Citizen faces Gangwon FC in a crucial K League 1 fixture. Daejeon are in excellent form and pushing for a strong finish, while Gangwon may have one eye on their upcoming AFC Champions League commitments. Daejeon's recent unbeaten run and home advantage make them strong favorites. The probabilities reflect Daejeon's superiority in this matchup."
-  },
-  {
-    "id": "KOR004",
-    "date": "2025-11-20",
-    "time": "13:30",
-    "league": "K League 1",
-    "homeTeam": "Gwangju FC",
-    "awayTeam": "Ulsan Hyundai",
-    "fixture_verification_url": "https://www.google.com/search?q=K+League+1+Gwangju+FC+vs+Ulsan+Hyundai+2025-11-20",
-    "prediction": {
-      "homeWin": 25,
-      "draw": 30,
-      "awayWin": 45
-    },
-    "safeBet": {
-      "title": "Ulsan Hyundai Win (1X2)",
-      "odds": "1.90",
-      "description": "Ulsan Hyundai are the defending champions and have a strong away record."
-    },
-    "valueBet": {
-      "title": "Both Teams to Score (Yes)",
-      "odds": "1.85",
-      "description": "Both Gwangju and Ulsan are capable of scoring."
-    },
-    "stats": {
-      "homeForm": "WLLWD",
-      "awayForm": "WWDWW",
-      "h2h": "Ulsan Hyundai has a dominant H2H record against Gwangju.",
-      "keyInsights": "Penultimate round of K League 1. Ulsan Hyundai are champions but will aim to finish strong. Gwangju fighting for a top-half finish."
-    },
-    "reasoning": "Gwangju FC hosts defending champions Ulsan Hyundai in a K League 1 fixture. Ulsan Hyundai, despite securing the title, will be motivated to finish the season strongly. Their historical dominance over Gwangju and superior squad quality makes them clear favorites. The probabilities reflect Ulsan's strength and intent."
-  },
-  {
-    "id": "KOR005",
-    "date": "2025-11-20",
-    "time": "13:30",
-    "league": "K League 1",
-    "homeTeam": "Pohang Steelers",
-    "awayTeam": "Jeonbuk FC",
-    "fixture_verification_url": "https://www.google.com/search?q=K+League+1+Pohang+Steelers+vs+Jeonbuk+FC+2025-11-20",
-    "prediction": {
-      "homeWin": 40,
-      "draw": 30,
-      "awayWin": 30
-    },
-    "safeBet": {
-      "title": "Double Chance 1X (Pohang Steelers or Draw)",
-      "odds": "1.45",
-      "description": "Pohang's home advantage in their final home game, Jeonbuk are strong but can falter away."
-    },
-    "valueBet": {
-      "title": "Draw",
-      "odds": "3.10",
-      "description": "A tightly contested match between two historic rivals."
-    },
-    "stats": {
-      "homeForm": "DDWLW",
-      "awayForm": "LWWDL",
-      "h2h": "Season's H2H is balanced (1 win, 1 draw, 1 loss).",
-      "keyInsights": "Final home game for Pohang Steelers, aiming to secure a higher ranking. Jeonbuk FC is also fighting for position. Expect an intense battle."
-    },
-    "reasoning": "Pohang Steelers play their final home game of the season against Jeonbuk FC. This is a significant fixture for both teams, with Pohang aiming to improve their league standing and Jeonbuk looking to maintain momentum. The H2H record this season is even, indicating a closely fought contest. The probabilities suggest a balanced match with a slight edge to Pohang at home."
+    "reasoning": "This is a closely matched game between two teams in the middle to lower half of the table. Ceara's home advantage and Internacional's poor away form give Ceara a slight edge. A tight, low-scoring game is anticipated."
   }
 ]
