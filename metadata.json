@@ -1,0 +1,5 @@
+{
+  "name": "BetAI Predictor",
+  "description": "AI-powered football match predictions and analysis using Gemini 2.5 and Google Search.",
+  "requestFramePermissions": []
+}
