@@ -9,7 +9,7 @@ export const fetchDailyMatches = async (): Promise<Match[]> => {
       ? import.meta.env.BASE_URL
       : `${import.meta.env.BASE_URL}/`;
 
-    const response = await fetch(`${baseUrl}matches.json`);
+    const response = await fetch(`${baseUrl}matches.json?t=${new Date().getTime()}`);
 
     if (!response.ok) {
       throw new Error(`Failed to fetch matches: ${response.statusText}`);
