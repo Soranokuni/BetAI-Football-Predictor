@@ -14,27 +14,27 @@ interface Props {
 
 export const MatchCard: React.FC<Props> = ({ match, onDetailClick }) => {
     return (
-        <View className="bg-slate-800 rounded-xl p-4 border border-slate-700 mb-4 shadow-sm" style={{ elevation: 4, shadowColor: '#000', shadowOpacity: 0.3, shadowRadius: 4, shadowOffset: { width: 0, height: 2 } }}>
+        <View className="bg-slate-800 rounded-xl p-4 border border-slate-700 mb-4 shadow-sm" style={{ elevation: 4, shadowColor: '#000', shadowOpacity: 0.3, shadowRadius: 4, shadowOffset: { width: 0, height: 2 }, backgroundColor: '#1e293b' }}>
             {/* Header: League & Time */}
             <View className="flex-row justify-between items-center mb-4">
-                <View className="bg-slate-900 px-2 py-1 rounded border border-slate-700">
-                    <Text className="text-xs font-semibold text-slate-400 uppercase tracking-wider">
+                <View className="bg-slate-900 px-2 py-1 rounded border border-slate-700" style={{ backgroundColor: '#0f172a' }}>
+                    <Text className="text-xs font-semibold text-slate-400 uppercase tracking-wider" style={{ color: '#94a3b8' }}>
                         {match.league}
                     </Text>
                 </View>
-                <Text className="text-xs text-slate-400 font-mono">{match.time} UTC</Text>
+                <Text className="text-xs text-slate-400 font-mono" style={{ color: '#94a3b8' }}>{match.time} UTC</Text>
             </View>
 
             {/* Teams */}
             <View className="flex-row items-center justify-between mb-4">
                 <View className="flex-1 items-start">
-                    <Text className="text-lg font-bold text-white leading-tight">{match.homeTeam}</Text>
+                    <Text className="text-lg font-bold text-white leading-tight" style={{ color: '#ffffff' }}>{match.homeTeam}</Text>
                 </View>
                 <View className="px-3">
-                    <Text className="text-slate-500 text-xs font-bold">VS</Text>
+                    <Text className="text-slate-500 text-xs font-bold" style={{ color: '#64748b' }}>VS</Text>
                 </View>
                 <View className="flex-1 items-end">
-                    <Text className="text-lg font-bold text-white leading-tight">{match.awayTeam}</Text>
+                    <Text className="text-lg font-bold text-white leading-tight" style={{ color: '#ffffff' }}>{match.awayTeam}</Text>
                 </View>
             </View>
 

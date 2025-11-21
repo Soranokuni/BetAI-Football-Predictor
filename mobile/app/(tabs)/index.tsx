@@ -45,7 +45,7 @@ export default function HomeScreen() {
   // ... (inside component)
 
   return (
-    <SafeAreaView className="flex-1 bg-slate-950">
+    <SafeAreaView className="flex-1 bg-slate-950" style={{ backgroundColor: '#020617' }}>
       <LinearGradient
         colors={['rgba(15, 23, 42, 0.9)', 'rgba(15, 23, 42, 0.8)']}
         className="px-4 py-4 border-b border-slate-800 flex-row items-center gap-3"
