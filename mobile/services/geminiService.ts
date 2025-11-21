@@ -4,7 +4,12 @@ const BASE_URL = 'https://Soranokuni.github.io/BetAI-Football-Predictor/';
 
 export const fetchDailyMatches = async (): Promise<Match[]> => {
     try {
-        const response = await fetch(`${BASE_URL}matches.json?t=${new Date().getTime()}`);
+        const response = await fetch(`${BASE_URL}matches.json?t=${new Date().getTime()}`, {
+            headers: {
+                'Accept': 'application/json',
+                'Cache-Control': 'no-cache'
+            }
+        });
 
         if (!response.ok) {
             throw new Error(`Failed to fetch matches: ${response.statusText}`);
