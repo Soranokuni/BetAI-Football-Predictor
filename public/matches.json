@@ -1,281 +1,281 @@
 [
   {
-    "id": "CAFCL_20251121_0500",
-    "date": "2025-11-21",
-    "time": "05:00",
+    "id": "CAFCL_20251122_MASUEL",
+    "date": "2025-11-22",
+    "time": "15:00",
     "league": "CAF Champions League",
-    "homeTeam": "Al-Hilal Omdurman",
-    "awayTeam": "MC Alger",
-    "fixture_verification_url": "https://www.flashscore.co.za/match/Qe9wQ24d/",
-    "prediction": {
-      "homeWin": 40,
-      "draw": 30,
-      "awayWin": 30
-    },
-    "safeBet": {
-      "title": "Double Chance (Home or Draw)",
-      "odds": "1.50",
-      "description": "Al-Hilal Omdurman has a solid home record and MC Alger can be inconsistent away from home. A double chance bet offers a good balance of safety and potential return."
-    },
-    "valueBet": {
-      "title": "Al-Hilal Omdurman to Win",
-      "odds": "2.20",
-      "description": "While MC Alger are a capable side, Al-Hilal's home advantage and recent form in the CAF Champions League group stage opener could see them secure a victory at attractive odds."
-    },
-    "stats": {
-      "homeForm": "Recent form unavailable, focus on CAF CL group stage opener.",
-      "awayForm": "Recent form unavailable, focus on CAF CL group stage opener.",
-      "h2h": "Head-to-head data for this specific fixture is not readily available.",
-      "keyInsights": "This is the opening fixture of the CAF Champions League group stage. Both teams will be eager to start with a win. Al-Hilal Omdurman will be looking to leverage their home advantage."
-    },
-    "reasoning": "The CAF Champions League group stage kicks off today. Al-Hilal Omdurman, playing at home, is expected to be slightly favored. However, MC Alger is a competitive team, making a draw a plausible outcome. The initial odds reflect a close contest, with a slight edge to the home side. The safe bet focuses on avoiding an away win, while the value bet considers Al-Hilal's potential to capitalize on their home support in the opening match."
-  },
-  {
-    "id": "CAFCL_20251121_0500_2",
-    "date": "2025-11-21",
-    "time": "05:00",
-    "league": "CAF Champions League",
-    "homeTeam": "Mamelodi Sundowns",
-    "awayTeam": "St Éloi Lupopo",
-    "fixture_verification_url": "https://www.flashscore.co.za/match/f18zJ31a/",
-    "prediction": {
-      "homeWin": 65,
-      "draw": 25,
-      "awayWin": 10
-    },
-    "safeBet": {
-      "title": "Home Win (1)",
-      "odds": "1.30",
-      "description": "Mamelodi Sundowns are a dominant force in African club football and are playing at home, making them strong favorites."
-    },
-    "valueBet": {
-      "title": "Mamelodi Sundowns -1.5 Handicap",
-      "odds": "2.00",
-      "description": "Given Sundowns' quality and home advantage, they are likely to win by more than one goal, offering better value than a simple win bet."
-    },
-    "stats": {
-      "homeForm": "Recent form unavailable, focus on CAF CL group stage opener.",
-      "awayForm": "Recent form unavailable, focus on CAF CL group stage opener.",
-      "h2h": "Head-to-head data for this specific fixture is not readily available.",
-      "keyInsights": "Mamelodi Sundowns are one of the strongest teams in Africa. St Éloi Lupopo are the underdogs in this fixture. This is the opening game of the group stage."
-    },
-    "reasoning": "Mamelodi Sundowns are a powerhouse in African football and are playing at home in the opening group stage match. Their superior quality and experience make them heavy favorites against St Éloi Lupopo. The prediction reflects a high probability of a home win, with a significant chance of them winning by multiple goals. The safe bet is a straightforward home win, while the value bet looks to capitalize on their expected dominance with a handicap."
-  },
-  {
-    "id": "SPL_20251121_0650",
-    "date": "2025-11-21",
-    "time": "06:50",
-    "league": "Saudi Pro League",
-    "homeTeam": "Al Kholood",
-    "awayTeam": "Al Hazem",
-    "fixture_verification_url": "https://www.flashscore.com/football/saudi-arabia/pro-league/al-kholood-al-hazem-zB1p5V5D/",
-    "prediction": {
-      "homeWin": 35,
-      "draw": 30,
-      "awayWin": 35
-    },
-    "safeBet": {
-      "title": "Double Chance (Draw or Away Win)",
-      "odds": "1.60",
-      "description": "Both teams are in similar league positions and have shown inconsistent form. An away win or a draw is a more secure bet than a home win."
-    },
-    "valueBet": {
-      "title": "Draw",
-      "odds": "3.40",
-      "description": "Given the closely matched nature of these teams and their league positions, a draw is a distinct possibility and offers a good return."
-    },
-    "stats": {
-      "homeForm": "Recent form shows a mix of results, with struggles to consistently secure wins.",
-      "awayForm": "Recent form also indicates inconsistency, with difficulties in converting draws into wins.",
-      "h2h": "Limited head-to-head data available for these two teams.",
-      "keyInsights": "This is a mid-table clash in the Saudi Pro League. Neither team has established strong dominance over the other. Motivation will be key for both to secure points."
-    },
-    "reasoning": "This Saudi Pro League fixture pits two evenly matched teams against each other. Based on their league standings and recent form, a close game is expected. The prediction suggests a slight edge to an away win or a draw due to the teams' similar capabilities. The safe bet accounts for the possibility of Al Hazem avoiding defeat, given their potential to secure points away from home. The value bet targets a draw, which seems a likely outcome given the balanced nature of the encounter."
-  },
-  {
-    "id": "SPL_20251121_0715",
-    "date": "2025-11-21",
-    "time": "07:15",
-    "league": "Saudi Pro League",
-    "homeTeam": "Al Ittihad",
-    "awayTeam": "Al Riyadh",
-    "fixture_verification_url": "https://www.flashscore.com/football/saudi-arabia/pro-league/al-ittihad-al-riyadh-rR7o9z9e/",
+    "homeTeam": "Mamelodi Sundowns FC",
+    "awayTeam": "Saint Eloi Lupopo",
+    "fixture_verification_url": "https://www.goal.com/gh/match/mamelodi-sundowns-fc-v-saint-eloi-lupopo/8944525812741222667",
     "prediction": {
       "homeWin": 70,
       "draw": 20,
       "awayWin": 10
     },
     "safeBet": {
-      "title": "Home Win (1)",
+      "title": "Mamelodi Sundowns Win",
       "odds": "1.25",
-      "description": "Al Ittihad is a top team in the league with a strong home record. Al Riyadh is likely to struggle against them."
+      "description": "Mamelodi Sundowns are strong favorites at home against Saint Eloi Lupopo in the CAF Champions League."
     },
     "valueBet": {
-      "title": "Al Ittihad to Win to Nil",
-      "odds": "2.10",
-      "description": "Al Ittihad's strong defense and attacking prowess suggest they can keep a clean sheet while securing a comfortable victory."
+      "title": "Mamelodi Sundowns Win and Under 2.5 Goals",
+      "odds": "2.75",
+      "description": "Mamelodi Sundowns are expected to win, and their matches can sometimes be low-scoring at home."
     },
     "stats": {
-      "homeForm": "Al Ittihad has been in good form, especially at home, with a strong attacking and defensive record.",
-      "awayForm": "Al Riyadh has struggled to find consistent form, particularly away from home, and faces a tough defensive challenge.",
-      "h2h": "Al Ittihad has a dominant head-to-head record against Al Riyadh.",
-      "keyInsights": "Al Ittihad are title contenders, while Al Riyadh are struggling to climb the table. The home side will be pushing for maximum points to stay close to the top."
+      "homeForm": "Strong at home (general knowledge)",
+      "awayForm": "Less dominant away (general knowledge)",
+      "h2h": "No specific H2H data found",
+      "keyInsights": "Mamelodi Sundowns' consistent performance and home advantage make them clear favorites against less experienced CAF Champions League opposition."
     },
-    "reasoning": "Al Ittihad are in strong form and are playing at home against a struggling Al Riyadh side. The prediction heavily favors an Al Ittihad victory due to their superior quality and motivation to keep pace at the top of the league. The safe bet is a straightforward home win, with the value bet aiming for a cleaner sheet given Al Ittihad's defensive solidity and Al Riyadh's attacking limitations."
+    "reasoning": "Mamelodi Sundowns are a consistently strong side in the CAF Champions League and are expected to perform well at home. Saint Eloi Lupopo are unlikely to pose a significant threat to their dominance, making a home win the most probable outcome."
   },
   {
-    "id": "SPL_20251121_0930",
-    "date": "2025-11-21",
-    "time": "09:30",
-    "league": "Saudi Pro League",
-    "homeTeam": "Al Ahli",
-    "awayTeam": "Al Qadsiah",
-    "fixture_verification_url": "https://www.tips.gg/football/match/al-ahli-sc-al-qadsiah-20251121/",
+    "id": "CAFCL_20251122_YADFR",
+    "date": "2025-11-22",
+    "time": "15:00",
+    "league": "CAF Champions League",
+    "homeTeam": "Young Africans",
+    "awayTeam": "FAR Rabat",
+    "fixture_verification_url": "https://www.ahramonline.org/Content/View/Sports/21-11-2025/CAF-Champions-League-results--fixtures-Group-stage---Round-1/43592",
     "prediction": {
       "homeWin": 55,
-      "draw": 25,
+      "draw": 30,
+      "awayWin": 15
+    },
+    "safeBet": {
+      "title": "Double Chance Young Africans or Draw (1X)",
+      "odds": "1.28",
+      "description": "Young Africans are favored at home and expected to at least avoid defeat."
+    },
+    "valueBet": {
+      "title": "Young Africans to Win to Nil",
+      "odds": "2.70",
+      "description": "If Young Africans leverage their home advantage effectively, they could secure a clean sheet victory."
+    },
+    "stats": {
+      "homeForm": "Strong at home (general knowledge)",
+      "awayForm": "Variable away form (general knowledge)",
+      "h2h": "No specific H2H data found",
+      "keyInsights": "A crucial opening fixture for both teams, with Young Africans looking to capitalize on home support against a Moroccan opponent."
+    },
+    "reasoning": "Young Africans at home are generally a formidable opponent. While FAR Rabat are a capable side, the home advantage and the importance of an opening fixture suggest Young Africans will be motivated to secure a victory."
+  },
+  {
+    "id": "CAFCL_20251122_ALHJ",
+    "date": "2025-11-22",
+    "time": "18:00",
+    "league": "CAF Champions League",
+    "homeTeam": "Al Ahly",
+    "awayTeam": "JS Kabylie",
+    "fixture_verification_url": "https://www.egypttoday.com/Article/2/154588/Al-Ahly-vs-JS-Kabylie-match-date-and-broadcast-channels-in-the-CAF-Champions-League",
+    "prediction": {
+      "homeWin": 75,
+      "draw": 15,
+      "awayWin": 10
+    },
+    "safeBet": {
+      "title": "Al Ahly Win",
+      "odds": "1.18",
+      "description": "Al Ahly's pedigree and home advantage make them overwhelming favorites against JS Kabylie."
+    },
+    "valueBet": {
+      "title": "Al Ahly to Win by 2 or more goals",
+      "odds": "2.10",
+      "description": "Al Ahly's attacking strength and motivation could lead to a comfortable margin of victory."
+    },
+    "stats": {
+      "homeForm": "Legendary home record (general knowledge)",
+      "awayForm": "Mixed away form (general knowledge)",
+      "h2h": "Favors Al Ahly (general knowledge)",
+      "keyInsights": "Al Ahly are aiming for their 13th title and will be eager to start with a home win. JS Kabylie faces a difficult task away from home."
+    },
+    "reasoning": "Al Ahly's status as the most successful club in the CAF Champions League, combined with their formidable home record, makes them overwhelming favorites against JS Kabylie."
+  },
+  {
+    "id": "CAFCL_20251122_ESTSTM",
+    "date": "2025-11-22",
+    "time": "18:00",
+    "league": "CAF Champions League",
+    "homeTeam": "Espérance Tunis",
+    "awayTeam": "Stade Malien",
+    "fixture_verification_url": "https://www.footafrica.com/caf-champions-league-2025-2026-weakened-es-tunis-faces-stade-malien/",
+    "prediction": {
+      "homeWin": 45,
+      "draw": 35,
       "awayWin": 20
     },
     "safeBet": {
-      "title": "Al Ahli SC to Win (1)",
-      "odds": "1.98",
-      "description": "Al Ahli SC are the favorites in this match, boasting a strong home record and an unbeaten streak. They are expected to secure a win, although odds are not extremely short."
-    },
-    "valueBet": {
-      "title": "Al Ahli SC and Over 1.5 Goals",
-      "odds": "2.30",
-      "description": "Given Al Ahli's attacking intent and ability to score at home, combined with Al Qadsiah's defensive frailties, an Al Ahli win with multiple goals is a good value bet."
-    },
-    "stats": {
-      "homeForm": "Al Ahli SC remains unbeaten in their last five matches, showing defensive maturity and midfield control.",
-      "awayForm": "Al Qadsiah has struggled to dominate against top opposition historically, despite a confident recent run.",
-      "h2h": "Head-to-head history shows Al Ahli SC often having the upper hand.",
-      "keyInsights": "This is a clash between fourth and fifth-placed teams, separated by a single point. Al Ahli SC has a strong home advantage and remains unbeaten. Al Qadsiah will be looking to cause an upset."
-    },
-    "reasoning": "Al Ahli SC enters this match as the favorite, being unbeaten in their recent outings and playing at home. While Al Qadsiah has been in good form, Al Ahli's historical dominance and home advantage should give them the edge. The prediction reflects a moderate probability of a home win. The safe bet is a direct win for Al Ahli, considering their favoritism. The value bet combines a home win with the expectation of multiple goals, given Al Ahli's attacking capabilities and Al Qadsiah's potential vulnerability."
-  },
-  {
-    "id": "CAFCL_20251121_0800",
-    "date": "2025-11-21",
-    "time": "08:00",
-    "league": "CAF Champions League",
-    "homeTeam": "Rivers United",
-    "awayTeam": "RS Berkane",
-    "fixture_verification_url": "https://www.flashscore.co.za/match/O6T1yR4g/",
-    "prediction": {
-      "homeWin": 30,
-      "draw": 35,
-      "awayWin": 35
-    },
-    "safeBet": {
-      "title": "Double Chance (Draw or Away Win)",
-      "odds": "1.55",
-      "description": "RS Berkane are strong contenders and have a good record. Rivers United playing at home will make it difficult, so a draw or an away win covers both outcomes."
+      "title": "Double Chance Espérance Tunis or Draw (1X)",
+      "odds": "1.25",
+      "description": "Despite absences, Espérance Tunis at home are still favored to at least draw."
     },
     "valueBet": {
       "title": "Draw",
-      "odds": "3.10",
-      "description": "Both teams are well-matched, and the opening group stage game could be cagey, leading to a potential draw with good odds."
+      "odds": "3.20",
+      "description": "With key players missing for Espérance Tunis, Stade Malien has a good chance of securing a point."
     },
     "stats": {
-      "homeForm": "Recent form unavailable, focus on CAF CL group stage opener.",
-      "awayForm": "Recent form unavailable, focus on CAF CL group stage opener.",
-      "h2h": "Head-to-head data for this specific fixture is not readily available.",
-      "keyInsights": "This is an intriguing matchup in Group A of the CAF Champions League. Both teams will be aiming to get off to a positive start in the group stage."
+      "homeForm": "Strong at home (general knowledge)",
+      "awayForm": "Not detailed",
+      "h2h": "No specific H2H data found",
+      "keyInsights": "Espérance Tunis are facing several key player absences, which could level the playing field against Stade Malien."
     },
-    "reasoning": "This CAF Champions League fixture presents a balanced contest between Rivers United and RS Berkane. Both teams are strong and will be looking to secure a win in their opening group match. The prediction reflects a near even split between the three outcomes, with a slight lean towards the away team or a draw due to Berkane's pedigree. The safe bet covers the possibility of Berkane not losing, while the value bet targets a draw, anticipating a tight opening encounter."
+    "reasoning": "The absences for Espérance Tunis significantly temper their favoritism. Stade Malien will be motivated to exploit this, making a draw a very plausible outcome."
   },
   {
-    "id": "CAFCL_20251121_0800_2",
-    "date": "2025-11-21",
-    "time": "08:00",
+    "id": "CAFCL_20251122_RSBPD",
+    "date": "2025-11-22",
+    "time": "21:00",
     "league": "CAF Champions League",
-    "homeTeam": "Stade Malien",
-    "awayTeam": "Simba SC",
-    "fixture_verification_url": "https://www.flashscore.co.za/match/Ew2qX2lI/",
+    "homeTeam": "RSB Berkane",
+    "awayTeam": "Power Dynamos",
+    "fixture_verification_url": "https://www.goal.com/gh/match/rsb-berkane-v-power-dynamos/8944525812741222671",
     "prediction": {
-      "homeWin": 25,
-      "draw": 30,
-      "awayWin": 45
+      "homeWin": 65,
+      "draw": 25,
+      "awayWin": 10
     },
     "safeBet": {
-      "title": "Double Chance (Draw or Away Win)",
+      "title": "RSB Berkane Win",
       "odds": "1.45",
-      "description": "Simba SC are generally stronger performers in continental competitions. Stade Malien playing at home could secure a draw, making this a safer bet."
+      "description": "RSB Berkane are favored at home against Power Dynamos, who have less experience in the competition."
     },
     "valueBet": {
-      "title": "Simba SC to Win",
-      "odds": "2.05",
-      "description": "Simba SC are the favorites in this group stage opener and are capable of securing an away victory against Stade Malien."
+      "title": "RSB Berkane to Win and Under 2.5 Goals",
+      "odds": "3.00",
+      "description": "Berkane might secure a victory without a high-scoring affair."
     },
     "stats": {
-      "homeForm": "Recent form unavailable, focus on CAF CL group stage opener.",
-      "awayForm": "Recent form unavailable, focus on CAF CL group stage opener.",
-      "h2h": "Head-to-head data for this specific fixture is not readily available.",
-      "keyInsights": "This is another Group A fixture in the CAF Champions League. Simba SC are considered a stronger side in this tie."
+      "homeForm": "Good at home (general knowledge)",
+      "awayForm": "Not detailed",
+      "h2h": "No specific H2H data found",
+      "keyInsights": "Berkane will be expected to start their campaign strongly at home and secure three points."
     },
-    "reasoning": "Simba SC enters this CAF Champions League fixture as the favorite, possessing more pedigree in continental competitions than Stade Malien. While Stade Malien will be looking to make their home advantage count, the prediction suggests that Simba SC has a higher probability of securing a win. The safe bet is to back Simba SC not to lose, acknowledging the potential for Stade Malien to snatch a draw at home. The value bet is on Simba SC to win outright, capitalizing on their perceived superiority."
+    "reasoning": "RSB Berkane, playing at home in the CAF Champions League, are expected to overcome Power Dynamos, who are likely to find it difficult on the road."
   },
   {
-    "id": "LMX_20251121_0300",
-    "date": "2025-11-21",
-    "time": "03:00",
-    "league": "Liga MX",
-    "homeTeam": "Pachuca",
-    "awayTeam": "Pumas UNAM",
-    "fixture_verification_url": "https://www.vavel.com/en/football/2025/11/20/1233863/goals-and-highlights-pachuca-3-1-pumas-in-liga-mx-11-20-2025.html",
+    "id": "CAFCL_20251122_PYRRSU",
+    "date": "2025-11-22",
+    "time": "21:00",
+    "league": "CAF Champions League",
+    "homeTeam": "Pyramids FC",
+    "awayTeam": "Rivers United FC",
+    "fixture_verification_url": "https://www.ahramonline.org/Content/View/Sports/21-11-2025/CAF-Champions-League-results--fixtures-Group-stage---Round-1/43592",
     "prediction": {
-      "homeWin": 45,
-      "draw": 30,
-      "awayWin": 25
+      "homeWin": 70,
+      "draw": 20,
+      "awayWin": 10
     },
     "safeBet": {
-      "title": "Double Chance (Home or Draw)",
-      "odds": "1.40",
-      "description": "Pachuca is playing at home and has a new manager, which could inspire them. Pumas have shown some resilience, making a draw a possible outcome."
-    },
-    "valueBet": {
-      "title": "Pachuca to Win",
-      "odds": "1.90",
-      "description": "With a new manager and home advantage, Pachuca will be motivated to secure a win in this crucial Play-In match."
-    },
-    "stats": {
-      "homeForm": "Pachuca has had inconsistent results, leading to a managerial change. However, home form can be a factor.",
-      "awayForm": "Pumas have shown mixed results, with some draws and wins, but also losses.",
-      "h2h": "Recent head-to-head matches between Pachuca and Pumas have been closely contested, with a slight edge to Pachuca in some encounters.",
-      "keyInsights": "This is a Liga MX Apertura Play-In match. Both teams will be highly motivated to advance. Pachuca has a new manager, Esteban Solari, which could bring a new dynamic to the team."
-    },
-    "reasoning": "This Liga MX Apertura Play-In match is crucial for both Pachuca and Pumas UNAM. Pachuca, playing at home and under a new manager, will be eager to secure a victory. Pumas have shown they can be a tough opponent, making a draw a possibility. The prediction reflects Pachuca as the slight favorite due to home advantage and potential managerial boost. The safe bet covers Pachuca avoiding defeat, while the value bet is on Pachuca to win, expecting them to capitalize on their home crowd and new tactical approach."
-  },
-  {
-    "id": "LMX_20251121_0500",
-    "date": "2025-11-21",
-    "time": "05:00",
-    "league": "Liga MX",
-    "homeTeam": "Club Tijuana",
-    "awayTeam": "FC Juárez",
-    "fixture_verification_url": "https://www.vavel.com/en/football/2025/11/21/1233875/goals-and-highlights-xolos-3-1-fc-juarez-in-liga-mx-11-21-2025.html",
-    "prediction": {
-      "homeWin": 40,
-      "draw": 30,
-      "awayWin": 30
-    },
-    "safeBet": {
-      "title": "Double Chance (Home or Draw)",
+      "title": "Pyramids FC Win",
       "odds": "1.35",
-      "description": "Club Tijuana has home advantage, but FC Juárez has shown they can compete. This bet covers a win or a draw for the home team."
+      "description": "Pyramids FC are expected to secure a victory at home in their opening CAF Champions League match."
     },
     "valueBet": {
-      "title": "Club Tijuana to Win",
-      "odds": "2.10",
-      "description": "Playing at home in a crucial Play-In match, Club Tijuana will be looking to secure a victory against FC Juárez."
+      "title": "Pyramids FC to Win by 2 or more goals",
+      "odds": "2.20",
+      "description": "Given their quality, Pyramids FC could register a convincing win at home."
     },
     "stats": {
-      "homeForm": "Club Tijuana has had mixed results but has shown some fighting spirit, especially at home.",
-      "awayForm": "FC Juárez has been inconsistent, and their away form can be a concern.",
-      "h2h": "Head-to-head matches between these two teams have often been close encounters.",
-      "keyInsights": "This is a Liga MX Apertura Play-In match. The winner will proceed, while the loser faces elimination. Both teams will be desperate for a win."
+      "homeForm": "Strong at home (general knowledge)",
+      "awayForm": "Not detailed",
+      "h2h": "No specific H2H data found",
+      "keyInsights": "Pyramids FC are eager to make a mark in the CAF Champions League and will leverage their home advantage."
     },
-    "reasoning": "This Liga MX Apertura Play-In match is a must-win for both Club Tijuana and FC Juárez. Club Tijuana has the home advantage, which is a significant factor in such a crucial game. FC Juárez will be looking to cause an upset. The prediction gives a slight edge to Club Tijuana, but with a considerable chance for a draw or an away win. The safe bet is on Club Tijuana not losing at home, while the value bet is on them securing the crucial victory."
+    "reasoning": "Pyramids FC's ambition in the CAF Champions League, coupled with their home advantage, makes them strong favorites against Rivers United."
+  },
+  {
+    "id": "SPL_20251122_ALHALE",
+    "date": "2025-11-22",
+    "time": "16:40",
+    "league": "Saudi Pro League",
+    "homeTeam": "Al Hilal",
+    "awayTeam": "Al Fateh",
+    "fixture_verification_url": "https://sportytrader.com/prediction/al-hilal-v-al-fateh-prediction-saudi-pro-league-22-11-2025-1333027",
+    "prediction": {
+      "homeWin": 85,
+      "draw": 10,
+      "awayWin": 5
+    },
+    "safeBet": {
+      "title": "Al Hilal Win",
+      "odds": "1.15",
+      "description": "Al Hilal's dominant form and unbeaten streak make them overwhelming favorites at home."
+    },
+    "valueBet": {
+      "title": "Al Hilal to Win to Nil",
+      "odds": "1.80",
+      "description": "Given Al Fateh's struggles and Al Hilal's defensive solidity, a clean sheet victory is probable."
+    },
+    "stats": {
+      "homeForm": "Unbeaten in 10 games, 10-game winning run.",
+      "awayForm": "Poor away form, 2 points from 4 away league matches.",
+      "h2h": "Al Fateh has 5 straight losses to Al Hilal.",
+      "keyInsights": "Al Hilal's flawless record and Al Fateh's struggles create a significant mismatch. Al Hilal's attacking strength and defensive solidity are key."
+    },
+    "reasoning": "Al Hilal's perfect record and strong winning streak, contrasted with Al Fateh's poor away form and head-to-head record, point to a comfortable home victory. Al Hilal's attacking and defensive capabilities are clearly superior."
+  },
+  {
+    "id": "BSERIEA_20251122_FLABRA",
+    "date": "2025-11-22",
+    "time": "16:30",
+    "league": "Brasileirão Serie A",
+    "homeTeam": "Flamengo",
+    "awayTeam": "Bragantino",
+    "fixture_verification_url": "https://sportytrader.com/prediction/flamengo-vs-bragantino-prediction-brasileirao-serie-a-22-11-2025-1284490",
+    "prediction": {
+      "homeWin": 65,
+      "draw": 20,
+      "awayWin": 15
+    },
+    "safeBet": {
+      "title": "Flamengo Win",
+      "odds": "1.33",
+      "description": "Flamengo are expected to win at home against Bragantino in a crucial league fixture."
+    },
+    "valueBet": {
+      "title": "Flamengo to Win and Over 2.5 Goals",
+      "odds": "2.35",
+      "description": "Flamengo's attacking style and Bragantino's defensive vulnerabilities suggest a potentially higher-scoring game."
+    },
+    "stats": {
+      "homeForm": "Generally strong at home (general knowledge)",
+      "awayForm": "Mixed, 4 wins, 4 losses, 2 draws in last 10 away games. Average 1.5 goals scored.",
+      "h2h": "No specific H2H data found",
+      "keyInsights": "Flamengo are title contenders and will be heavily favored at home. Bragantino's form is mixed, making an away result unlikely."
+    },
+    "reasoning": "Flamengo's status as a top Brazilian club and their home advantage make them strong favorites against Bragantino. While Bragantino can score, Flamengo's overall quality and motivation for the title should see them secure the win."
+  },
+  {
+    "id": "J3L_20251122_KAGRYU",
+    "date": "2025-11-22",
+    "time": "20:00",
+    "league": "J3 League",
+    "homeTeam": "Kagoshima United FC",
+    "awayTeam": "FC Ryukyu",
+    "fixture_verification_url": "https://www.flashfootball.com/japan/j3-league-2025/kagoshima-utd-v-ryukyu-live-score-stats-previews-predictions-odds/2906623",
+    "prediction": {
+      "homeWin": 60,
+      "draw": 25,
+      "awayWin": 15
+    },
+    "safeBet": {
+      "title": "Kagoshima United FC Win",
+      "odds": "1.60",
+      "description": "Kagoshima United FC are favored at home against FC Ryukyu, who are lower in the league standings."
+    },
+    "valueBet": {
+      "title": "Kagoshima United FC to Win and Over 2.5 Goals",
+      "odds": "2.75",
+      "description": "Kagoshima United's strong attacking record at home suggests they can score multiple goals."
+    },
+    "stats": {
+      "homeForm": "Strong, 18 wins in 36 games, 66 goals scored.",
+      "awayForm": "Mixed, 10 wins in 36 games, 38 goals scored.",
+      "h2h": "No specific H2H data found",
+      "keyInsights": "Kagoshima United FC's superior league position and strong home record make them clear favorites."
+    },
+    "reasoning": "Kagoshima United FC's superior league position and strong home record give them a clear advantage over FC Ryukyu, who have struggled on their travels."
   }
 ]
