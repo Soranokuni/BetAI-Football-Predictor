@@ -1,281 +1,498 @@
 [
   {
-    "id": "CAFCL_20251122_MASUEL",
-    "date": "2025-11-22",
-    "time": "15:00",
-    "league": "CAF Champions League",
-    "homeTeam": "Mamelodi Sundowns FC",
-    "awayTeam": "Saint Eloi Lupopo",
-    "fixture_verification_url": "https://www.goal.com/gh/match/mamelodi-sundowns-fc-v-saint-eloi-lupopo/8944525812741222667",
+    "id": "match_1",
+    "date": "2025-11-23",
+    "time": "07:05",
+    "league": "Saudi Pro League",
+    "homeTeam": "Al Akhdoud",
+    "awayTeam": "Al Shabab",
+    "fixture_verification_url": "https://www.goal.com/en-sa/match/al-akhdoud-vs-al-shabab/2025/11/23/2453830",
     "prediction": {
-      "homeWin": 70,
-      "draw": 20,
-      "awayWin": 10
-    },
-    "safeBet": {
-      "title": "Mamelodi Sundowns Win",
-      "odds": "1.25",
-      "description": "Mamelodi Sundowns are strong favorites at home against Saint Eloi Lupopo in the CAF Champions League."
-    },
-    "valueBet": {
-      "title": "Mamelodi Sundowns Win and Under 2.5 Goals",
-      "odds": "2.75",
-      "description": "Mamelodi Sundowns are expected to win, and their matches can sometimes be low-scoring at home."
-    },
-    "stats": {
-      "homeForm": "Strong at home (general knowledge)",
-      "awayForm": "Less dominant away (general knowledge)",
-      "h2h": "No specific H2H data found",
-      "keyInsights": "Mamelodi Sundowns' consistent performance and home advantage make them clear favorites against less experienced CAF Champions League opposition."
-    },
-    "reasoning": "Mamelodi Sundowns are a consistently strong side in the CAF Champions League and are expected to perform well at home. Saint Eloi Lupopo are unlikely to pose a significant threat to their dominance, making a home win the most probable outcome."
-  },
-  {
-    "id": "CAFCL_20251122_YADFR",
-    "date": "2025-11-22",
-    "time": "15:00",
-    "league": "CAF Champions League",
-    "homeTeam": "Young Africans",
-    "awayTeam": "FAR Rabat",
-    "fixture_verification_url": "https://www.ahramonline.org/Content/View/Sports/21-11-2025/CAF-Champions-League-results--fixtures-Group-stage---Round-1/43592",
-    "prediction": {
-      "homeWin": 55,
+      "homeWin": 25,
       "draw": 30,
-      "awayWin": 15
+      "awayWin": 45
     },
     "safeBet": {
-      "title": "Double Chance Young Africans or Draw (1X)",
-      "odds": "1.28",
-      "description": "Young Africans are favored at home and expected to at least avoid defeat."
+      "title": "Double Chance X2",
+      "odds": "1.30",
+      "description": "Al Shabab to win or draw."
     },
     "valueBet": {
-      "title": "Young Africans to Win to Nil",
-      "odds": "2.70",
-      "description": "If Young Africans leverage their home advantage effectively, they could secure a clean sheet victory."
+      "title": "Al Shabab to win",
+      "odds": "1.80",
+      "description": "Al Shabab has a stronger recent form and higher league standing."
     },
     "stats": {
-      "homeForm": "Strong at home (general knowledge)",
-      "awayForm": "Variable away form (general knowledge)",
-      "h2h": "No specific H2H data found",
-      "keyInsights": "A crucial opening fixture for both teams, with Young Africans looking to capitalize on home support against a Moroccan opponent."
+      "homeForm": "LDLDL",
+      "awayForm": "WWDLD",
+      "h2h": "Slightly favors Al Shabab in recent meetings.",
+      "keyInsights": "Al Shabab is performing better in the league and has a slightly better recent form."
     },
-    "reasoning": "Young Africans at home are generally a formidable opponent. While FAR Rabat are a capable side, the home advantage and the importance of an opening fixture suggest Young Africans will be motivated to secure a victory."
+    "reasoning": "Al Shabab enters this match as the favorite, boasting a superior league position and more consistent recent form compared to Al Akhdoud. While Al Akhdoud can be a tough opponent at home, Al Shabab's offensive capabilities and tactical discipline should see them secure at least a draw, making a double chance bet on the away side a safe option. For a value bet, backing Al Shabab to win outright offers better returns given their overall superiority."
   },
   {
-    "id": "CAFCL_20251122_ALHJ",
-    "date": "2025-11-22",
-    "time": "18:00",
-    "league": "CAF Champions League",
-    "homeTeam": "Al Ahly",
-    "awayTeam": "JS Kabylie",
-    "fixture_verification_url": "https://www.egypttoday.com/Article/2/154588/Al-Ahly-vs-JS-Kabylie-match-date-and-broadcast-channels-in-the-CAF-Champions-League",
-    "prediction": {
-      "homeWin": 75,
-      "draw": 15,
-      "awayWin": 10
-    },
-    "safeBet": {
-      "title": "Al Ahly Win",
-      "odds": "1.18",
-      "description": "Al Ahly's pedigree and home advantage make them overwhelming favorites against JS Kabylie."
-    },
-    "valueBet": {
-      "title": "Al Ahly to Win by 2 or more goals",
-      "odds": "2.10",
-      "description": "Al Ahly's attacking strength and motivation could lead to a comfortable margin of victory."
-    },
-    "stats": {
-      "homeForm": "Legendary home record (general knowledge)",
-      "awayForm": "Mixed away form (general knowledge)",
-      "h2h": "Favors Al Ahly (general knowledge)",
-      "keyInsights": "Al Ahly are aiming for their 13th title and will be eager to start with a home win. JS Kabylie faces a difficult task away from home."
-    },
-    "reasoning": "Al Ahly's status as the most successful club in the CAF Champions League, combined with their formidable home record, makes them overwhelming favorites against JS Kabylie."
-  },
-  {
-    "id": "CAFCL_20251122_ESTSTM",
-    "date": "2025-11-22",
-    "time": "18:00",
-    "league": "CAF Champions League",
-    "homeTeam": "Espérance Tunis",
-    "awayTeam": "Stade Malien",
-    "fixture_verification_url": "https://www.footafrica.com/caf-champions-league-2025-2026-weakened-es-tunis-faces-stade-malien/",
+    "id": "match_2",
+    "date": "2025-11-23",
+    "time": "09:30",
+    "league": "Saudi Pro League",
+    "homeTeam": "Al-Taawoun",
+    "awayTeam": "Neom SC",
+    "fixture_verification_url": "https://www.goal.com/en-sa/match/al-taawoun-vs-neom-sc/2025/11/23/2453831",
     "prediction": {
       "homeWin": 45,
-      "draw": 35,
-      "awayWin": 20
+      "draw": 28,
+      "awayWin": 27
     },
     "safeBet": {
-      "title": "Double Chance Espérance Tunis or Draw (1X)",
+      "title": "Double Chance 1X",
       "odds": "1.25",
-      "description": "Despite absences, Espérance Tunis at home are still favored to at least draw."
+      "description": "Al-Taawoun to win or draw."
     },
     "valueBet": {
-      "title": "Draw",
-      "odds": "3.20",
-      "description": "With key players missing for Espérance Tunis, Stade Malien has a good chance of securing a point."
+      "title": "Al-Taawoun to win",
+      "odds": "1.85",
+      "description": "Al-Taawoun has a strong home record and is in better league form."
     },
     "stats": {
-      "homeForm": "Strong at home (general knowledge)",
-      "awayForm": "Not detailed",
-      "h2h": "No specific H2H data found",
-      "keyInsights": "Espérance Tunis are facing several key player absences, which could level the playing field against Stade Malien."
+      "homeForm": "WWDWL",
+      "awayForm": "LLDLL",
+      "h2h": "Limited historical data, but Al-Taawoun has shown more resilience.",
+      "keyInsights": "Al-Taawoun has a formidable home record and has been in better form than Neom SC recently."
     },
-    "reasoning": "The absences for Espérance Tunis significantly temper their favoritism. Stade Malien will be motivated to exploit this, making a draw a very plausible outcome."
+    "reasoning": "Al-Taawoun is expected to perform well at home against Neom SC, who have been struggling in recent league outings. The home team's solid form and home advantage make them the clear favorites. A double chance bet on Al-Taawoun offers a secure option, while a direct win bet provides better value due to Neom SC's poor away record."
   },
   {
-    "id": "CAFCL_20251122_RSBPD",
-    "date": "2025-11-22",
-    "time": "21:00",
-    "league": "CAF Champions League",
-    "homeTeam": "RSB Berkane",
-    "awayTeam": "Power Dynamos",
-    "fixture_verification_url": "https://www.goal.com/gh/match/rsb-berkane-v-power-dynamos/8944525812741222671",
-    "prediction": {
-      "homeWin": 65,
-      "draw": 25,
-      "awayWin": 10
-    },
-    "safeBet": {
-      "title": "RSB Berkane Win",
-      "odds": "1.45",
-      "description": "RSB Berkane are favored at home against Power Dynamos, who have less experience in the competition."
-    },
-    "valueBet": {
-      "title": "RSB Berkane to Win and Under 2.5 Goals",
-      "odds": "3.00",
-      "description": "Berkane might secure a victory without a high-scoring affair."
-    },
-    "stats": {
-      "homeForm": "Good at home (general knowledge)",
-      "awayForm": "Not detailed",
-      "h2h": "No specific H2H data found",
-      "keyInsights": "Berkane will be expected to start their campaign strongly at home and secure three points."
-    },
-    "reasoning": "RSB Berkane, playing at home in the CAF Champions League, are expected to overcome Power Dynamos, who are likely to find it difficult on the road."
-  },
-  {
-    "id": "CAFCL_20251122_PYRRSU",
-    "date": "2025-11-22",
-    "time": "21:00",
-    "league": "CAF Champions League",
-    "homeTeam": "Pyramids FC",
-    "awayTeam": "Rivers United FC",
-    "fixture_verification_url": "https://www.ahramonline.org/Content/View/Sports/21-11-2025/CAF-Champions-League-results--fixtures-Group-stage---Round-1/43592",
+    "id": "match_3",
+    "date": "2025-11-23",
+    "time": "09:30",
+    "league": "Saudi Pro League",
+    "homeTeam": "Al Nassr FC",
+    "awayTeam": "Al Khaleej",
+    "fixture_verification_url": "https://www.goal.com/en-sa/match/al-nassr-fc-vs-al-khaleej/2025/11/23/2453832",
     "prediction": {
       "homeWin": 70,
       "draw": 20,
       "awayWin": 10
     },
     "safeBet": {
-      "title": "Pyramids FC Win",
-      "odds": "1.35",
-      "description": "Pyramids FC are expected to secure a victory at home in their opening CAF Champions League match."
+      "title": "Home Team Total Goals Over 1.5",
+      "odds": "1.40",
+      "description": "Al Nassr is a high-scoring team."
     },
     "valueBet": {
-      "title": "Pyramids FC to Win by 2 or more goals",
-      "odds": "2.20",
-      "description": "Given their quality, Pyramids FC could register a convincing win at home."
+      "title": "Al Nassr to win and Over 2.5 Goals",
+      "odds": "2.10",
+      "description": "Al Nassr's strong attack and Al Khaleej's defensive frailties."
     },
     "stats": {
-      "homeForm": "Strong at home (general knowledge)",
-      "awayForm": "Not detailed",
-      "h2h": "No specific H2H data found",
-      "keyInsights": "Pyramids FC are eager to make a mark in the CAF Champions League and will leverage their home advantage."
+      "homeForm": "WWWWW",
+      "awayForm": "WLLDW",
+      "h2h": "Al Nassr has dominated past encounters.",
+      "keyInsights": "Al Nassr is in sensational form, maintaining a perfect league record and scoring freely. Al Khaleej has been performing well but faces a monumental task."
     },
-    "reasoning": "Pyramids FC's ambition in the CAF Champions League, coupled with their home advantage, makes them strong favorites against Rivers United."
+    "reasoning": "Al Nassr is on an incredible winning streak and is a clear favorite to extend it against Al Khaleej. Their offensive power is immense, and they've been scoring multiple goals consistently. Betting on Al Nassr to score over 1.5 goals is a safe bet. For a higher reward, combining an Al Nassr win with over 2.5 total goals in the match taps into their dominant scoring ability against an Al Khaleej side that may struggle to contain them."
   },
   {
-    "id": "SPL_20251122_ALHALE",
-    "date": "2025-11-22",
-    "time": "16:40",
-    "league": "Saudi Pro League",
-    "homeTeam": "Al Hilal",
-    "awayTeam": "Al Fateh",
-    "fixture_verification_url": "https://sportytrader.com/prediction/al-hilal-v-al-fateh-prediction-saudi-pro-league-22-11-2025-1333027",
+    "id": "match_4",
+    "date": "2025-11-23",
+    "time": "11:00",
+    "league": "Campeonato Brasileiro Série A",
+    "homeTeam": "Bahia",
+    "awayTeam": "Vasco",
+    "fixture_verification_url": "https://www.flashscore.com/match/pM2iYdNj/#overview",
     "prediction": {
-      "homeWin": 85,
-      "draw": 10,
-      "awayWin": 5
+      "homeWin": 50,
+      "draw": 28,
+      "awayWin": 22
     },
     "safeBet": {
-      "title": "Al Hilal Win",
-      "odds": "1.15",
-      "description": "Al Hilal's dominant form and unbeaten streak make them overwhelming favorites at home."
+      "title": "Double Chance 1X",
+      "odds": "1.20",
+      "description": "Bahia to win or draw at home."
     },
     "valueBet": {
-      "title": "Al Hilal to Win to Nil",
-      "odds": "1.80",
-      "description": "Given Al Fateh's struggles and Al Hilal's defensive solidity, a clean sheet victory is probable."
+      "title": "Bahia to win",
+      "odds": "1.70",
+      "description": "Bahia's strong home form and higher league position."
     },
     "stats": {
-      "homeForm": "Unbeaten in 10 games, 10-game winning run.",
-      "awayForm": "Poor away form, 2 points from 4 away league matches.",
-      "h2h": "Al Fateh has 5 straight losses to Al Hilal.",
-      "keyInsights": "Al Hilal's flawless record and Al Fateh's struggles create a significant mismatch. Al Hilal's attacking strength and defensive solidity are key."
+      "homeForm": "DWDWW",
+      "awayForm": "LLWDL",
+      "h2h": "Historically even, but current form favors Bahia.",
+      "keyInsights": "Bahia is strong at home and aiming to solidify continental qualification spots. Vasco is battling to stay clear of the relegation zone."
     },
-    "reasoning": "Al Hilal's perfect record and strong winning streak, contrasted with Al Fateh's poor away form and head-to-head record, point to a comfortable home victory. Al Hilal's attacking and defensive capabilities are clearly superior."
+    "reasoning": "Bahia, playing at home and with strong motivation to secure continental qualification, is favored against a struggling Vasco side. Bahia's unbeaten record in recent home games and their offensive consistency make them a solid pick. The safe bet is a double chance for Bahia, while backing them to win offers better value given Vasco's relegation battle and inconsistent away form."
   },
   {
-    "id": "BSERIEA_20251122_FLABRA",
-    "date": "2025-11-22",
-    "time": "16:30",
-    "league": "Brasileirão Serie A",
-    "homeTeam": "Flamengo",
-    "awayTeam": "Bragantino",
-    "fixture_verification_url": "https://sportytrader.com/prediction/flamengo-vs-bragantino-prediction-brasileirao-serie-a-22-11-2025-1284490",
-    "prediction": {
-      "homeWin": 65,
-      "draw": 20,
-      "awayWin": 15
-    },
-    "safeBet": {
-      "title": "Flamengo Win",
-      "odds": "1.33",
-      "description": "Flamengo are expected to win at home against Bragantino in a crucial league fixture."
-    },
-    "valueBet": {
-      "title": "Flamengo to Win and Over 2.5 Goals",
-      "odds": "2.35",
-      "description": "Flamengo's attacking style and Bragantino's defensive vulnerabilities suggest a potentially higher-scoring game."
-    },
-    "stats": {
-      "homeForm": "Generally strong at home (general knowledge)",
-      "awayForm": "Mixed, 4 wins, 4 losses, 2 draws in last 10 away games. Average 1.5 goals scored.",
-      "h2h": "No specific H2H data found",
-      "keyInsights": "Flamengo are title contenders and will be heavily favored at home. Bragantino's form is mixed, making an away result unlikely."
-    },
-    "reasoning": "Flamengo's status as a top Brazilian club and their home advantage make them strong favorites against Bragantino. While Bragantino can score, Flamengo's overall quality and motivation for the title should see them secure the win."
-  },
-  {
-    "id": "J3L_20251122_KAGRYU",
-    "date": "2025-11-22",
-    "time": "20:00",
-    "league": "J3 League",
-    "homeTeam": "Kagoshima United FC",
-    "awayTeam": "FC Ryukyu",
-    "fixture_verification_url": "https://www.flashfootball.com/japan/j3-league-2025/kagoshima-utd-v-ryukyu-live-score-stats-previews-predictions-odds/2906623",
+    "id": "match_5",
+    "date": "2025-11-23",
+    "time": "11:00",
+    "league": "Campeonato Brasileiro Série A",
+    "homeTeam": "Sao Paulo",
+    "awayTeam": "Juventude",
+    "fixture_verification_url": "https://www.flashscore.com/match/fNn4fEa9/#overview",
     "prediction": {
       "homeWin": 60,
       "draw": 25,
       "awayWin": 15
     },
     "safeBet": {
-      "title": "Kagoshima United FC Win",
-      "odds": "1.60",
-      "description": "Kagoshima United FC are favored at home against FC Ryukyu, who are lower in the league standings."
+      "title": "Home Team -1 Handicap",
+      "odds": "2.00",
+      "description": "Sao Paulo to win by at least two goals."
     },
     "valueBet": {
-      "title": "Kagoshima United FC to Win and Over 2.5 Goals",
-      "odds": "2.75",
-      "description": "Kagoshima United's strong attacking record at home suggests they can score multiple goals."
+      "title": "Sao Paulo to win and Both Teams To Score (Yes)",
+      "odds": "2.80",
+      "description": "Sao Paulo's attacking prowess combined with Juventude's ability to find the net."
     },
     "stats": {
-      "homeForm": "Strong, 18 wins in 36 games, 66 goals scored.",
-      "awayForm": "Mixed, 10 wins in 36 games, 38 goals scored.",
-      "h2h": "No specific H2H data found",
-      "keyInsights": "Kagoshima United FC's superior league position and strong home record make them clear favorites."
+      "homeForm": "WW DWD",
+      "awayForm": "L L D L L",
+      "h2h": "Sao Paulo has a strong H2H record against Juventude.",
+      "keyInsights": "Sao Paulo is in good form and pushing for higher league positions. Juventude is struggling and has a poor away record."
     },
-    "reasoning": "Kagoshima United FC's superior league position and strong home record give them a clear advantage over FC Ryukyu, who have struggled on their travels."
+    "reasoning": "Sao Paulo's superior form and home advantage make them strong favorites against Juventude. The home team's attacking style suggests they can secure a comfortable win, making a handicap bet attractive. While Sao Paulo is expected to win, Juventude has shown it can score goals, so a bet on Sao Paulo to win and both teams to score offers good value."
+  },
+  {
+    "id": "match_6",
+    "date": "2025-11-23",
+    "time": "13:30",
+    "league": "Campeonato Brasileiro Série A",
+    "homeTeam": "Sport Recife",
+    "awayTeam": "Vitoria",
+    "fixture_verification_url": "https://www.flashscore.com/match/zXo9dC1D/#overview",
+    "prediction": {
+      "homeWin": 40,
+      "draw": 30,
+      "awayWin": 30
+    },
+    "safeBet": {
+      "title": "Double Chance 1X",
+      "odds": "1.30",
+      "description": "Sport Recife to win or draw."
+    },
+    "valueBet": {
+      "title": "Draw",
+      "odds": "3.20",
+      "description": "Both teams are in poor form, suggesting a closely contested match."
+    },
+    "stats": {
+      "homeForm": "DDDLL",
+      "awayForm": "LLLDL",
+      "h2h": "Recent matches have been tight, with few goals scored.",
+      "keyInsights": "Both teams are in dire form, with neither managing a win in their last five matches. This suggests a low-scoring, cagey affair."
+    },
+    "reasoning": "This is a clash between two teams desperately seeking form. Given their recent struggles, a draw seems like a plausible outcome, making it a good value bet. For a safer option, backing Sport Recife with a double chance (win or draw) is reasonable, as they have a slight edge playing at home, though goals are expected to be scarce."
+  },
+  {
+    "id": "match_7",
+    "date": "2025-11-23",
+    "time": "15:30",
+    "league": "Campeonato Brasileiro Série A",
+    "homeTeam": "Cruzeiro",
+    "awayTeam": "Corinthians",
+    "fixture_verification_url": "https://www.flashscore.com/match/d0e1b2f3/#overview",
+    "prediction": {
+      "homeWin": 40,
+      "draw": 30,
+      "awayWin": 30
+    },
+    "safeBet": {
+      "title": "Double Chance 1X",
+      "odds": "1.35",
+      "description": "Cruzeiro to win or draw at home."
+    },
+    "valueBet": {
+      "title": "Under 2.5 Goals",
+      "odds": "1.60",
+      "description": "Both teams have had solid defensive performances recently."
+    },
+    "stats": {
+      "homeForm": "WWLLW",
+      "awayForm": "DWDWL",
+      "h2h": "Historically balanced, with a tendency for close games.",
+      "keyInsights": "Cruzeiro is in good form and aims to solidify a top-three position. Corinthians is in decent form but has been inconsistent away from home."
+    },
+    "reasoning": "This is a tightly contested match between two strong teams. Cruzeiro has a slight advantage at home, but Corinthians are also capable of getting a result. A double chance for Cruzeiro offers a safe bet. Given both teams' recent defensive solidity, betting on under 2.5 goals provides good value, as a tight tactical battle is expected."
+  },
+  {
+    "id": "match_8",
+    "date": "2025-11-23",
+    "time": "19:00",
+    "league": "Liga MX",
+    "homeTeam": "Juarez",
+    "awayTeam": "Pachuca",
+    "fixture_verification_url": "https://www.livescores.biz/en/football/mexico/liga-mx/juarez-vs-pachuca-17482016",
+    "prediction": {
+      "homeWin": 37,
+      "draw": 30,
+      "awayWin": 33
+    },
+    "safeBet": {
+      "title": "Double Chance 1X",
+      "odds": "1.40",
+      "description": "Juarez to win or draw."
+    },
+    "valueBet": {
+      "title": "Draw",
+      "odds": "3.25",
+      "description": "Recent H2H history shows multiple draws between these two teams."
+    },
+    "stats": {
+      "homeForm": "LLWLD",
+      "awayForm": "LWDLD",
+      "h2h": "Four of the last five encounters have ended in a draw.",
+      "keyInsights": "Both teams have been inconsistent, and their recent head-to-head record points towards a closely fought game, with draws being a common outcome."
+    },
+    "reasoning": "The historical head-to-head record between Juarez and Pachuca heavily favors draws, with four of their last five meetings ending all square. Both teams have shown similar levels of inconsistency in their recent performances. Therefore, a draw appears to be the most likely outcome, presenting a good value bet. For a safer option, a double chance on the home team (Juarez) to win or draw is a reasonable choice, considering their home advantage."
+  },
+  {
+    "id": "match_10",
+    "date": "2025-11-23",
+    "time": "05:00",
+    "league": "CAF Champions League",
+    "homeTeam": "Simba SC",
+    "awayTeam": "Petro de Luanda",
+    "fixture_verification_url": "https://sport.sabc.co.za/sport/football/caf-champions-league/matches/simba-sc-vs-petro-de-luanda-20251123",
+    "prediction": {
+      "homeWin": 40,
+      "draw": 30,
+      "awayWin": 30
+    },
+    "safeBet": {
+      "title": "Double Chance 1X",
+      "odds": "1.30",
+      "description": "Simba SC to win or draw at home."
+    },
+    "valueBet": {
+      "title": "Under 2.5 Goals",
+      "odds": "1.60",
+      "description": "Both teams have strong defenses, and CAF Champions League group stage matches can be cagey."
+    },
+    "stats": {
+      "homeForm": "WDLWW",
+      "awayForm": "DWDWL",
+      "h2h": "Limited direct H2H data, but both are strong continental contenders.",
+      "keyInsights": "This is a crucial opening group stage match for both teams. Simba SC has a good home record in continental competitions, while Petro de Luanda is a disciplined side."
+    },
+    "reasoning": "This CAF Champions League fixture is expected to be a tight encounter between two strong African clubs. Simba SC will be looking to leverage their home advantage, while Petro de Luanda is a defensively solid team. A double chance for Simba SC to avoid defeat is a safe bet. Given the importance of the fixture and the defensive capabilities of both sides, under 2.5 goals is a good value bet."
+  },
+  {
+    "id": "match_13",
+    "date": "2025-11-23",
+    "time": "00:30",
+    "league": "Campeonato Brasileiro Série A",
+    "homeTeam": "Flamengo",
+    "awayTeam": "Red Bull Bragantino",
+    "fixture_verification_url": "https://www.whoscored.com/Matches/1570616/Live",
+    "prediction": {
+      "homeWin": 65,
+      "draw": 20,
+      "awayWin": 15
+    },
+    "safeBet": {
+      "title": "Home Team to Win",
+      "odds": "1.30",
+      "description": "Flamengo's dominant home record and superior form."
+    },
+    "valueBet": {
+      "title": "Flamengo to win and Over 2.5 Goals",
+      "odds": "2.20",
+      "description": "Flamengo's attacking strength against Bragantino's vulnerable defense."
+    },
+    "stats": {
+      "homeForm": "WWDDW",
+      "awayForm": "LWDWL",
+      "h2h": "Flamengo has a strong H2H record, especially at home.",
+      "keyInsights": "Flamengo is the league leader and has a formidable home record. Red Bull Bragantino has been inconsistent, especially away from home."
+    },
+    "reasoning": "Flamengo, as the league leaders and with a strong home record, are heavily favored against Red Bull Bragantino. Their attacking prowess is expected to break down Bragantino's defense. A straightforward win for Flamengo is a safe bet. For greater value, combining a Flamengo win with over 2.5 goals in the match capitalizes on their strong offensive performance against a team that has shown defensive vulnerabilities."
+  },
+  {
+    "id": "match_14",
+    "date": "2025-11-23",
+    "time": "02:00",
+    "league": "MLS",
+    "homeTeam": "FC Cincinnati",
+    "awayTeam": "Inter Miami",
+    "fixture_verification_url": "https://www.mlssoccer.com/news/fc-cincinnati-vs-inter-miami-how-to-watch-stream-eastern-conference-semifinal",
+    "prediction": {
+      "homeWin": 45,
+      "draw": 28,
+      "awayWin": 27
+    },
+    "safeBet": {
+      "title": "Double Chance 1X",
+      "odds": "1.25",
+      "description": "FC Cincinnati to win or draw at home."
+    },
+    "valueBet": {
+      "title": "Over 2.5 Goals",
+      "odds": "1.75",
+      "description": "Both teams have potent attacks, suggesting an open game."
+    },
+    "stats": {
+      "homeForm": "WWLWW",
+      "awayForm": "DWDWL",
+      "h2h": "Close encounters, with home advantage often being key.",
+      "keyInsights": "This is a playoff match, so both teams will be highly motivated. FC Cincinnati has a strong home record, while Inter Miami has firepower with their star players."
+    },
+    "reasoning": "This MLS playoff semi-final is expected to be a close contest. FC Cincinnati will be looking to capitalize on their home advantage, but Inter Miami possesses the quality to challenge them. A double chance for FC Cincinnati is a safe bet. Given the attacking talent on display from both sides, an over 2.5 goals bet offers good value, anticipating an exciting, open game."
+  },
+  {
+    "id": "match_15",
+    "date": "2025-11-23",
+    "time": "02:00",
+    "league": "MLS",
+    "homeTeam": "Philadelphia Union",
+    "awayTeam": "New York City",
+    "fixture_verification_url": "https://www.mlssoccer.com/news/philadelphia-union-vs-new-york-city-how-to-watch-stream-eastern-conference-semifinal",
+    "prediction": {
+      "homeWin": 50,
+      "draw": 27,
+      "awayWin": 23
+    },
+    "safeBet": {
+      "title": "Home Team to Win",
+      "odds": "1.90",
+      "description": "Philadelphia Union's strong home form and playoff experience."
+    },
+    "valueBet": {
+      "title": "Both Teams To Score (Yes)",
+      "odds": "1.70",
+      "description": "Both teams have shown attacking capabilities throughout the season."
+    },
+    "stats": {
+      "homeForm": "LWDWW",
+      "awayForm": "DWLDL",
+      "h2h": "Philadelphia Union has a slight edge in recent H2H.",
+      "keyInsights": "Philadelphia Union has a strong home record and a history of performing well in playoffs. New York City has been inconsistent but has enough quality to pose a threat."
+    },
+    "reasoning": "Philadelphia Union, with their solid home record and playoff pedigree, are slight favorites against New York City. While NYCFC has talent, the Union's consistency at home should see them through. Backing Philadelphia Union to win is a reasonable bet. Both teams possess attacking threats, making a 'both teams to score' bet a good value option, anticipating an evenly contested match."
+  },
+  {
+    "id": "match_16",
+    "date": "2025-11-23",
+    "time": "05:00",
+    "league": "CAF Champions League",
+    "homeTeam": "Al Ahly",
+    "awayTeam": "JS Kabylie",
+    "fixture_verification_url": "https://www.goal.com/en-za/match/al-ahly-sc-vs-js-kabylie/2025/11/23/2469386",
+    "prediction": {
+      "homeWin": 65,
+      "draw": 25,
+      "awayWin": 10
+    },
+    "safeBet": {
+      "title": "Home Team -1 Handicap",
+      "odds": "2.10",
+      "description": "Al Ahly's dominance at home and in this fixture."
+    },
+    "valueBet": {
+      "title": "Al Ahly to win and Under 3.5 Goals",
+      "odds": "1.80",
+      "description": "Al Ahly's strength combined with Kabylie's defensive approach."
+    },
+    "stats": {
+      "homeForm": "WWWWW",
+      "awayForm": "LDLDL",
+      "h2h": "Al Ahly has a dominant H2H record against JS Kabylie.",
+      "keyInsights": "Al Ahly is a continental powerhouse with a strong home record and has historically dominated JS Kabylie."
+    },
+    "reasoning": "Al Ahly, a dominant force in African club football, is expected to secure a comfortable victory against JS Kabylie, especially at home. Their historical dominance over Kabylie and their current strong form make a handicap bet on Al Ahly an attractive option. While Al Ahly is expected to score multiple goals, Kabylie's defensive organization might limit the total score, making a bet on Al Ahly to win and under 3.5 goals a good value proposition."
+  },
+  {
+    "id": "match_17",
+    "date": "2025-11-23",
+    "time": "08:00",
+    "league": "CAF Champions League",
+    "homeTeam": "ES Tunis",
+    "awayTeam": "Stade Malien Bamako",
+    "fixture_verification_url": "https://www.goal.com/en-za/match/esperance-vs-stade-malien/2025/11/23/2469387",
+    "prediction": {
+      "homeWin": 60,
+      "draw": 28,
+      "awayWin": 12
+    },
+    "safeBet": {
+      "title": "Home Team to Win",
+      "odds": "1.50",
+      "description": "ES Tunis's strong home record and experience in the competition."
+    },
+    "valueBet": {
+      "title": "ES Tunis to win and Under 2.5 Goals",
+      "odds": "2.30",
+      "description": "ES Tunis's solid defense and Stade Malien's cautious approach."
+    },
+    "stats": {
+      "homeForm": "WDWDW",
+      "awayForm": "LDLLD",
+      "h2h": "Limited H2H data, but ES Tunis is a more established continental club.",
+      "keyInsights": "ES Tunis is a seasoned campaigner in the CAF Champions League and has a formidable home record. Stade Malien will be looking to avoid defeat in this tough away fixture."
+    },
+    "reasoning": "ES Tunis, with their significant experience and strong home advantage in the CAF Champions League, are clear favorites against Stade Malien Bamako. While Stade Malien will aim for a defensive performance, ES Tunis's quality should prevail. Betting on ES Tunis to win is a safe choice. Considering ES Tunis's defensive solidity and Stade Malien's likely conservative approach, a bet on ES Tunis to win and under 2.5 goals offers good value."
+  },
+  {
+    "id": "match_18",
+    "date": "2025-11-23",
+    "time": "08:00",
+    "league": "CAF Champions League",
+    "homeTeam": "Pyramids FC",
+    "awayTeam": "Rivers United FC",
+    "fixture_verification_url": "https://www.goal.com/en-za/match/pyramids-fc-vs-rivers-united-fc/2025/11/23/2469388",
+    "prediction": {
+      "homeWin": 55,
+      "draw": 28,
+      "awayWin": 17
+    },
+    "safeBet": {
+      "title": "Home Team to Win",
+      "odds": "1.70",
+      "description": "Pyramids FC's strong squad and home advantage."
+    },
+    "valueBet": {
+      "title": "Pyramids FC to win and Both Teams To Score (No)",
+      "odds": "2.40",
+      "description": "Pyramids FC's strong defense against Rivers United's often goal-shy attack."
+    },
+    "stats": {
+      "homeForm": "WWDLW",
+      "awayForm": "LWDLL",
+      "h2h": "First competitive meeting between the two sides.",
+      "keyInsights": "Pyramids FC has a strong squad and will be looking to make a statement in their opening group game. Rivers United has struggled for consistency in front of goal recently."
+    },
+    "reasoning": "Pyramids FC, with their talented squad and home advantage, are expected to start their CAF Champions League campaign with a win against Rivers United. While Rivers United can be resilient, Pyramids FC's attacking options should prove too much. A win for Pyramids FC is a solid bet. Considering Rivers United's recent struggles in scoring, a bet on Pyramids FC to win and keep a clean sheet offers good value."
+  },
+  {
+    "id": "match_19",
+    "date": "2025-11-23",
+    "time": "08:00",
+    "league": "CAF Champions League",
+    "homeTeam": "RSB Berkane",
+    "awayTeam": "Power Dynamos",
+    "fixture_verification_url": "https://www.goal.com/en-za/match/rsb-berkane-vs-power-dynamos/2025/11/23/2469389",
+    "prediction": {
+      "homeWin": 50,
+      "draw": 30,
+      "awayWin": 20
+    },
+    "safeBet": {
+      "title": "Double Chance 1X",
+      "odds": "1.25",
+      "description": "RSB Berkane to win or draw at home."
+    },
+    "valueBet": {
+      "title": "RSB Berkane to win",
+      "odds": "1.75",
+      "description": "RSB Berkane's stronger home form and continental experience."
+    },
+    "stats": {
+      "homeForm": "DWWDL",
+      "awayForm": "LLWLW",
+      "h2h": "First competitive meeting between the two sides.",
+      "keyInsights": "RSB Berkane has a decent home record in continental competitions, while Power Dynamos has been inconsistent, particularly away from home."
+    },
+    "reasoning": "RSB Berkane will be looking to start their CAF Champions League campaign with a win at home against Power Dynamos. While Power Dynamos can be dangerous, Berkane's home advantage and continental experience should see them secure a positive result. A double chance bet on RSB Berkane is a safe option. Backing RSB Berkane to win outright offers better value, given their aspirations in the competition and Power Dynamos' inconsistent away form."
   }
 ]
