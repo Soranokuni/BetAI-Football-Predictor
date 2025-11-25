@@ -1,374 +1,126 @@
 [
   {
-    "id": "match_1",
-    "date": "2025-11-24",
-    "time": "17:00",
-    "league": "Turkish Super Lig",
-    "homeTeam": "Basaksehir",
-    "awayTeam": "Antalyaspor",
-    "fixture_verification_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG45GircY0hPr6XVh24OJowXr5hOaJW1XLdpeNe8RZw5B_6IClVL8QIYYCE7ZVPmpk51I0ES52w_wfwTS94ZVmjxGoJPdYUurrsPLpQgC5I_yAR-S8YZEESJ9oZcR9LE3ZjH8Q5nRAz5YWUYjj_pxJaUcoPN342nqiMeqs=",
-    "prediction": {
-      "homeWin": 40,
-      "draw": 30,
-      "awayWin": 30
-    },
-    "safeBet": {
-      "title": "Double Chance 1X",
-      "odds": "1.30",
-      "description": "Basaksehir is at home and has a slight edge."
-    },
-    "valueBet": {
-      "title": "Basaksehir Win",
-      "odds": "2.40",
-      "description": "Basaksehir to win at home against a mid-table Antalyaspor."
-    },
-    "stats": {
-      "homeForm": "DWDLD",
-      "awayForm": "WLWLL",
-      "h2h": "Basaksehir has a slight edge in recent H2H.",
-      "keyInsights": "Basaksehir are looking to climb the table at home, while Antalyaspor are inconsistent away from home."
-    },
-    "reasoning": "Basaksehir at home against an inconsistent Antalyaspor. While neither team is in stellar form, Basaksehir's home advantage and slight historical edge give them a narrow favorite status. Antalyaspor's away form has been poor, making a home win or draw more probable. The odds for a Basaksehir win offer some value."
-  },
-  {
-    "id": "match_2",
-    "date": "2025-11-24",
-    "time": "19:45",
-    "league": "Italian Serie A",
-    "homeTeam": "Sassuolo",
-    "awayTeam": "Pisa",
-    "fixture_verification_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFuXgnleJZryqDzmNx3sl6tUiO1HOul0SzZ9GNaWoKlx-U1QY_kOiWOVp8xYFhhG8YIYTOitKgWaGNYzL5PONeh0BTRt-0p_q1f4X4fbBxOTyROQWu9HUBQBJQ9e4RZ6OZHzNN17n9kUvj40Aqk1wy83_wzLYF_8gVn_mqRh9xX",
+    "id": "MIRCEA-20251125",
+    "date": "2025-11-25",
+    "time": "04:00",
+    "league": "Brasileirão Serie A",
+    "homeTeam": "Mirassol",
+    "awayTeam": "Ceará",
+    "fixture_verification_url": "https://www.goal.com/en/news/brazil-serie-a-24-25-november-2025/",
     "prediction": {
       "homeWin": 55,
       "draw": 25,
       "awayWin": 20
     },
     "safeBet": {
-      "title": "Home Win (1X2)",
-      "odds": "2.10",
-      "description": "Sassuolo at home against a newly promoted Pisa side."
+      "title": "Double Chance 1X",
+      "odds": "1.66",
+      "description": "Mirassol or Draw. Mirassol is in a strong position to qualify for the Copa Libertadores and is expected to at least avoid defeat at home."
     },
     "valueBet": {
-      "title": "Sassuolo to Win & Over 2.5 Goals",
-      "odds": "3.50",
-      "description": "Sassuolo's attacking prowess and Pisa's defensive frailties suggest a comfortable home win with goals."
+      "title": "Mirassol to win and Over 2.5 Goals",
+      "odds": "N/A",
+      "description": "Mirassol has a good chance of winning, and if they do, there's potential for a moderate-scoring game."
     },
     "stats": {
-      "homeForm": "WDLWW",
-      "awayForm": "DDDLW",
-      "h2h": "Limited H2H data available, but Sassuolo has a stronger recent Serie A pedigree.",
-      "keyInsights": "Sassuolo has been in impressive form, particularly at home, while Pisa is showing resilience but lacks top-tier quality."
+      "homeForm": "Mirassol drew 1-1 away to Santos in their last reported match. They are in a \"privileged position to qualify for the Copa Libertadores\".",
+      "awayForm": "Ceará is in a precarious position, possibly facing relegation. They tend to concede few goals away from home.",
+      "h2h": "Mirassol has the historical advantage, winning 3 out of 5 encounters, with 1 draw and 1 win for Ceará.",
+      "keyInsights": "Mirassol fighting for Libertadores qualification, Ceará fighting relegation. Mirassol has a strong home record implied by their league standing."
     },
-    "reasoning": "Sassuolo, playing at home, are favored against Pisa. Sassuolo's recent form has been strong, with their attacking trio being particularly effective. Pisa has shown a fighting spirit and is undefeated in their last five, but they still lack the quality to consistently challenge top Serie A sides. The odds for a Sassuolo win are attractive given their form and home advantage. The potential for goals is also high."
+    "reasoning": "Mirassol's fight for continental qualification gives them significant motivation. Ceará's relegation battle also provides a strong incentive, but Mirassol's historical advantage and current league standing suggest they are the favorites, at least to secure a point at home."
   },
   {
-    "id": "match_3",
-    "date": "2025-11-24",
-    "time": "23:00",
-    "league": "Liga MX",
-    "homeTeam": "FC Juarez",
-    "awayTeam": "Pachuca",
-    "fixture_verification_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEneG-L3jn84L0LunVGiFc9PtJbcpmDcvTTY2bxY8bvExoIba5Fzfj-_xhGLalQyA7eejF7BeTeGwDwLbF0TZsdKlJ5_iYyoMKgp_bV_M0hHP-RgeHwjAgMTaWkzWbiou6-dUfsiNQbFiWdwWPUsYR62RdAag4UiJumYh0s9-7cxcmClSyauZkyfWAdrHOo0jrhdTBC2yUoQcums9SKC4VB5zZYnA==",
-    "prediction": {
-      "homeWin": 35,
-      "draw": 30,
-      "awayWin": 35
-    },
-    "safeBet": {
-      "title": "Draw No Bet - Pachuca",
-      "odds": "1.90",
-      "description": "Pachuca has a slight edge in overall form and H2H, offering insurance with a draw."
-    },
-    "valueBet": {
-      "title": "Both Teams to Score - Yes",
-      "odds": "1.85",
-      "description": "Both teams have shown they can score in previous encounters and recent matches."
-    },
-    "stats": {
-      "homeForm": "LLWDW",
-      "awayForm": "WWLWL",
-      "h2h": "Recent H2H is very even with multiple draws.",
-      "keyInsights": "This is a crucial playoff match. Both teams have been inconsistent, but Pachuca has a slightly better H2H record and a more potent attack."
-    },
-    "reasoning": "A tight playoff encounter between two evenly matched Liga MX sides. FC Juarez has the home advantage, but Pachuca has a historical edge and a more consistent scoring record. The recent H2H is closely contested, with several draws. Both teams' recent form is erratic, making it difficult to predict a clear winner. Betting on both teams to score seems a reasonable approach given their respective offensive capabilities and the high stakes."
-  },
-  {
-    "id": "match_4",
-    "date": "2025-11-24",
-    "time": "00:45",
-    "league": "MLS",
-    "homeTeam": "Philadelphia Union",
-    "awayTeam": "New York City FC",
-    "fixture_verification_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH2U1X0txFtQ2ihIZrWDR69jxXeq5ws3lhjAD7ta4GTI48LyeJj3xt4_RFG6O71uBq4_dA104tOxfJWMMsyXXSD6GFmsfuVjFTSJUwUyc5Mdk7u5_m-D3xd35F5nC6FzkbdirfH9KqrhKGYO3OCW-pMPnDLb11Ntx_H",
+    "id": "INTOSAN-20251125",
+    "date": "2025-11-25",
+    "time": "02:00",
+    "league": "Brasileirão Serie A",
+    "homeTeam": "Internacional",
+    "awayTeam": "Santos",
+    "fixture_verification_url": "https://www.red94.net/en/news/internacional-favored-over-santos-with-57-home-win-rate-dominates-18-13-in-head-to-head-matchups/",
     "prediction": {
       "homeWin": 45,
-      "draw": 25,
-      "awayWin": 30
+      "draw": 30,
+      "awayWin": 25
     },
     "safeBet": {
       "title": "Double Chance 1X",
-      "odds": "1.35",
-      "description": "Philadelphia Union at home against NYCFC."
+      "odds": "1.75",
+      "description": "Internacional or Draw. Internacional has a strong home record and a historical dominance over Santos, making them likely to at least avoid defeat."
     },
     "valueBet": {
-      "title": "Philadelphia Union to Win",
-      "odds": "2.10",
-      "description": "Philadelphia Union's strong home record and their need for points to secure playoff position."
+      "title": "Internacional to win",
+      "odds": "2.23",
+      "description": "Internacional is listed as the favorite by bookmakers and has a superior head-to-head record and home form."
     },
     "stats": {
-      "homeForm": "WDLWW",
-      "awayForm": "LLWDW",
-      "h2h": "Philadelphia Union has a slight edge in recent H2H at home.",
-      "keyInsights": "Philadelphia Union are in good home form and fighting for playoff seeding. NYCFC have been inconsistent, especially away from home."
+      "homeForm": "Internacional has a 7-5-5 home record this season. They have a 57% home win rate historically.",
+      "awayForm": "Santos struggles on the road, with a 3-4-10 away record.",
+      "h2h": "Internacional dominates this fixture, leading 18-13 in wins across 47 meetings. Internacional is unbeaten in their last 7 meetings against Santos.",
+      "keyInsights": "Both teams are in a critical relegation battle. Internacional has a significant historical advantage and better home form. Neymar's presence for Santos is a factor but may not be enough to overcome Internacional's home strength and historical dominance."
     },
-    "reasoning": "Philadelphia Union's strong home form and their push for playoff positioning make them slight favorites against a struggling New York City FC. While NYCFC can be dangerous, their away record and recent inconsistencies suggest they will find it tough at Subaru Park. The odds for a Philadelphia Union win offer reasonable value."
+    "reasoning": "This is a crucial relegation six-pointer. Internacional's historical dominance over Santos, coupled with their better home form, makes them slight favorites. Santos' struggles away from home are a major concern for them. Internacional's motivation to secure survival at home will be very high."
   },
   {
-    "id": "match_5",
-    "date": "2025-11-24",
-    "time": "02:30",
-    "league": "MLS",
-    "homeTeam": "Vancouver Whitecaps FC",
-    "awayTeam": "LAFC",
-    "fixture_verification_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH2U1X0txFtQ2ihIZrWDR69jxXeq5ws3lhjAD7ta4GTI48LyeJj3xt4_RFG6O71uBq4_dA104tOxfJWMMsyXXSD6GFmsfuVjFTSJUwUyc5Mdk7u5_m-D3xd35F5nC6FzkbdirfH9KqrhKGYO3OCW-pMPnDLb11Ntx_H",
+    "id": "ATMFLA-20251125",
+    "date": "2025-11-25",
+    "time": "00:30",
+    "league": "Brasileirão Serie A",
+    "homeTeam": "Atlético Mineiro",
+    "awayTeam": "Flamengo",
+    "fixture_verification_url": "https://sportytrader.com/football/brazil/serie-a/atletico-mg-flamengo-25-11-2025-951572/",
     "prediction": {
-      "homeWin": 30,
-      "draw": 30,
-      "awayWin": 40
+      "homeWin": 38,
+      "draw": 29,
+      "awayWin": 33
     },
     "safeBet": {
-      "title": "Draw No Bet - LAFC",
+      "title": "Under 2.5 Goals",
+      "odds": "1.62",
+      "description": "Both teams have strong defenses, and title deciders can often be cagey affairs."
+    },
+    "valueBet": {
+      "title": "Flamengo to win",
+      "odds": "1.92",
+      "description": "Flamengo is the league leader and has a strong recent record, making them favorites despite Atlético Mineiro's home advantage."
+    },
+    "stats": {
+      "homeForm": "Atlético Mineiro's recent form includes draws and wins, but also losses. They have struggled for consistency.",
+      "awayForm": "Flamengo is the league leader and is in strong form, though they did stumble against Fluminense recently.",
+      "h2h": "Flamengo has only one loss in their last seven matches against Atlético Mineiro.",
+      "keyInsights": "This is a crucial match for Flamengo to potentially clinch the league title. Atlético Mineiro will be looking to spoil their party and secure their own continental ambitions. Flamengo's motivation is extremely high as they aim to secure the title."
+    },
+    "reasoning": "Flamengo, as the league leaders and with a strong recent record against Atlético Mineiro, are clear favorites to secure the title. Their motivation will be immense, and they have the quality to overcome Atlético Mineiro, even away from home. While Atlético Mineiro will be competitive, Flamengo's overall strength and current form make them the more likely winners."
+  },
+  {
+    "id": "UNIGIM-20251125",
+    "date": "2025-11-25",
+    "time": "03:00",
+    "league": "Argentine Primera División",
+    "homeTeam": "Union de Santa Fe",
+    "awayTeam": "Gimnasia LP",
+    "fixture_verification_url": "https://www.tips.gg/matches/union-de-santa-fe-vs-gimnasia-lp-25112025/",
+    "prediction": {
+      "homeWin": 55,
+      "draw": 25,
+      "awayWin": 20
+    },
+    "safeBet": {
+      "title": "Union de Santa Fe to Win",
+      "odds": "N/A",
+      "description": "Union de Santa Fe has a strong defensive structure and has shown consistency, making them the favored team."
+    },
+    "valueBet": {
+      "title": "BTTS - No",
       "odds": "1.70",
-      "description": "LAFC have a better record and form than Vancouver."
-    },
-    "valueBet": {
-      "title": "LAFC to Win & Under 2.5 Goals",
-      "odds": "4.50",
-      "description": "LAFC's defensive solidity combined with their attacking edge."
+      "description": "Gimnasia LP has secured three consecutive clean sheets, suggesting a strong defensive record that might lead to a low-scoring game."
     },
     "stats": {
-      "homeForm": "DLLDW",
-      "awayForm": "WDWDL",
-      "h2h": "LAFC has a superior H2H record against Vancouver.",
-      "keyInsights": "LAFC are in better form and have a stronger H2H record, making them slight favorites despite playing away. Vancouver will be looking to cause an upset at home."
+      "homeForm": "Union de Santa Fe's recent form includes draws and a narrow victory, with a notable 3-0 win against Defensa y Justicia. They are known for deliberate passing and disciplined pressing.",
+      "awayForm": "Gimnasia LP is on a strong run, with a 100% win rate in November and three consecutive clean sheets.",
+      "h2h": "Historical trends are not explicitly detailed for this specific fixture in the provided snippets.",
+      "keyInsights": "This is a playoff match, implying high stakes. Gimnasia's recent defensive solidity is a key factor, while Union's tactical discipline and offensive capabilities are also noted."
     },
-    "reasoning": "LAFC are the favorites heading into this match against Vancouver Whitecaps FC. LAFC's superior form and H2H record give them an edge. Vancouver has been inconsistent, and while they'll be looking to capitalize on home advantage, LAFC's quality should see them through. The odds for an LAFC win are decent, and combining it with an under 2.5 goals market could offer value."
-  },
-  {
-    "id": "match_6",
-    "date": "2025-11-24",
-    "time": "07:00",
-    "league": "J3 League",
-    "homeTeam": "FC Osaka",
-    "awayTeam": "Kochi United SC",
-    "fixture_verification_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEipxVbu7Tc_c3cnWWk0Pca4_TUnkfYgFjen5vGdw5rR3Oaj2ZxJ8HdRrURYrfihmRBSa8kbde4e5SI2YD1JdxrLX-WMwxrrHoAIsku2wx_Ujl7Zv_D-c6PNUGSwSmvOeY-_SqxN4ttZp_DtBwdTtPcQwzh8ZfrNbO4ByYJVchG7m9vG9PwJ0u9S8o-MJc=",
-    "prediction": {
-      "homeWin": 35,
-      "draw": 35,
-      "awayWin": 30
-    },
-    "safeBet": {
-      "title": "Double Chance 1X",
-      "odds": "1.40",
-      "description": "FC Osaka at home against Kochi United SC."
-    },
-    "valueBet": {
-      "title": "Draw",
-      "odds": "3.20",
-      "description": "A close match between two evenly matched teams, a draw is a strong possibility."
-    },
-    "stats": {
-      "homeForm": "LDDWL",
-      "awayForm": "WLLDW",
-      "h2h": "Limited H2H data, but recent form suggests a close encounter.",
-      "keyInsights": "Both teams are in similar form, making this a difficult match to call. FC Osaka has a slight home advantage."
-    },
-    "reasoning": "This J3 League encounter between FC Osaka and Kochi United SC is expected to be a tight affair. Both teams have shown similar levels of inconsistency in their recent performances. FC Osaka has the home advantage, which could be a deciding factor, but Kochi United SC has shown they can be competitive away from home. A draw is a distinct possibility, and the odds for it are attractive."
-  },
-  {
-    "id": "match_10",
-    "date": "2025-11-24",
-    "time": "22:00",
-    "league": "Brasileirão Série A",
-    "homeTeam": "Mirassol",
-    "awayTeam": "Ceara",
-    "fixture_verification_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHW_r15lrX1etK0OApmXbykKkvYkwfHywd1YyZ5FgdozYTUhBJRZuVcYs4qZEf3iNnNP-Lh-KLWmngqg85ZOOH4enrTN-FYbymmG8kq6BOHf0FcCz3w6CmTou0afcCkTWoS4majP3LE1zFrSiFQw7o=",
-    "prediction": {
-      "homeWin": 50,
-      "draw": 25,
-      "awayWin": 25
-    },
-    "safeBet": {
-      "title": "Home Win (1X2)",
-      "odds": "1.67",
-      "description": "Mirassol is in excellent form and playing at home."
-    },
-    "valueBet": {
-      "title": "Mirassol to Win & Under 2.5 Goals",
-      "odds": "3.00",
-      "description": "Mirassol's strong defense and Ceara's inconsistent attack."
-    },
-    "stats": {
-      "homeForm": "WWLDW",
-      "awayForm": "DLWLW",
-      "h2h": "No significant H2H history available.",
-      "keyInsights": "Mirassol are in fourth place and in strong form, aiming to solidify their position. Ceara is mid-table with an inconsistent campaign."
-    },
-    "reasoning": "Mirassol, currently fourth in the Brasileirão, are in excellent form and will be looking to maintain their position at home against Ceara. Mirassol's methodical play and strong defense are contrasted by Ceara's inconsistency. The odds for a Mirassol win are attractive, reflecting their superior form and home advantage. The potential for a lower-scoring game also offers some value."
-  },
-  {
-    "id": "match_11",
-    "date": "2025-11-24",
-    "time": "02:30",
-    "league": "MLS",
-    "homeTeam": "San Diego FC",
-    "awayTeam": "Minnesota United FC",
-    "fixture_verification_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE1342ksA1237IxwkivWs-BLpYqtD9tsk7TSBG6tVAJMSz0Cq9Y8kQ3Uxe5HEI8lD__yD7-zjhGFwwuVRRTe-i3FU_3QoxQcye9f7npXV09OYlbKKu_crR-Y7DT40p9uaU9TF0gISCwRAcDOi9thX2Xb-xoISd_jpnUf5xrnIn7LKZCyX9RImIvZnMcY2J2X-Fdag==",
-    "prediction": {
-      "homeWin": 40,
-      "draw": 30,
-      "awayWin": 30
-    },
-    "safeBet": {
-      "title": "Double Chance 1X",
-      "odds": "1.30",
-      "description": "San Diego FC at home against Minnesota United."
-    },
-    "valueBet": {
-      "title": "San Diego FC to Win",
-      "odds": "2.25",
-      "description": "San Diego FC have shown good form at home and are looking to secure a playoff spot."
-    },
-    "stats": {
-      "homeForm": "WWDLW",
-      "awayForm": "LLDWL",
-      "h2h": "No prior H2H data available.",
-      "keyInsights": "This is a crucial match for both teams in the playoff race. San Diego FC has a slight advantage due to home form."
-    },
-    "reasoning": "This is a critical MLS match with both San Diego FC and Minnesota United FC vying for playoff spots. San Diego FC has shown better home form, which should give them an edge. Minnesota United FC has been inconsistent, particularly on the road. The odds for a San Diego FC win present good value given the circumstances."
-  },
-  {
-    "id": "match_12",
-    "date": "2025-11-24",
-    "time": "11:45",
-    "league": "Italian Serie A",
-    "homeTeam": "Torino",
-    "awayTeam": "Como",
-    "fixture_verification_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG45GircY0hPr6XVh24OJowXr5hOaJW1XLdpeNe8RZw5B_6IClVL8QIYYCE7ZVPmpk51I0ES52w_wfwTS94ZVmjxGoJPdYUurrsPLpQgC5I_yAR-S8YZEESJ9oZcR9LE3ZjH8Q5nRAz5YWUYjj_pxJaUcoPN342nqiMeqs=",
-    "prediction": {
-      "homeWin": 60,
-      "draw": 25,
-      "awayWin": 15
-    },
-    "safeBet": {
-      "title": "Home Win (1X2)",
-      "odds": "1.80",
-      "description": "Torino at home against Como."
-    },
-    "valueBet": {
-      "title": "Torino to Win & Under 2.5 Goals",
-      "odds": "3.00",
-      "description": "Torino's solid defense and Como's struggles to score away from home."
-    },
-    "stats": {
-      "homeForm": "WDLLW",
-      "awayForm": "LLLDD",
-      "h2h": "No significant H2H history available.",
-      "keyInsights": "Torino are looking to improve their league position at home, while Como are struggling significantly away from home and are in poor overall form."
-    },
-    "reasoning": "Torino, playing at home, are strong favorites against Como. Torino has a decent home record, while Como has been abysmal on the road, struggling to score and conceding heavily. The odds for a Torino win are reasonable, and combining it with an under 2.5 goals market could offer additional value due to Como's offensive struggles."
-  },
-  {
-    "id": "match_13",
-    "date": "2025-11-24",
-    "time": "16:00",
-    "league": "Greek Super League",
-    "homeTeam": "Volos NFC",
-    "awayTeam": "Levadiakos",
-    "fixture_verification_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG45GircY0hPr6XVh24OJowXr5hOaJW1XLdpeNe8RZw5B_6IClVL8QIYYCE7ZVPmpk51I0ES52w_wfwTS94ZVmjxGoJPdYUurrsPLpQgC5I_yAR-S8YZEESJ9oZcR9LE3ZjH8Q5nRAz5YWUYjj_pxJaUcoPN342nqiMeqs=",
-    "prediction": {
-      "homeWin": 45,
-      "draw": 30,
-      "awayWin": 25
-    },
-    "safeBet": {
-      "title": "Double Chance 1X",
-      "odds": "1.35",
-      "description": "Volos NFC at home against Levadiakos."
-    },
-    "valueBet": {
-      "title": "Volos NFC to Win",
-      "odds": "2.10",
-      "description": "Volos NFC's home advantage and Levadiakos's poor away form."
-    },
-    "stats": {
-      "homeForm": "DLWLL",
-      "awayForm": "LLWLL",
-      "h2h": "Recent H2H is evenly split, but current form favors Volos.",
-      "keyInsights": "Volos NFC will be looking to capitalize on their home advantage against a struggling Levadiakos side. Levadiakos's away form has been a major concern."
-    },
-    "reasoning": "Volos NFC have a good opportunity to secure points at home against Levadiakos. While Volos has been inconsistent, their home form is generally better than Levadiakos's abysmal away record. Levadiakos's recent performances have been poor, and they are unlikely to pose a significant threat. The odds for a Volos NFC win offer some value."
-  },
-  {
-    "id": "match_14",
-    "date": "2025-11-24",
-    "time": "20:00",
-    "league": "J3 League",
-    "homeTeam": "Hachinohe",
-    "awayTeam": "Sanuki",
-    "fixture_verification_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEVWrglN-UZ7tHGhFu-tnq6f63hcW1zFt0VO2yd9uLDjv92JXHbd2AE8_5OZHo-eh8NY2yJlfzhw_LKmvjYhE2𝚙WVc1sNl5N9sO762R-F29wc3kOWcqUOP40zR8RsG5godh6LaeDgZVkeBxB-n_BlfmQLs2A==",
-    "prediction": {
-      "homeWin": 40,
-      "draw": 30,
-      "awayWin": 30
-    },
-    "safeBet": {
-      "title": "Double Chance 1X",
-      "odds": "1.35",
-      "description": "Hachinohe at home against Sanuki."
-    },
-    "valueBet": {
-      "title": "Draw",
-      "odds": "3.10",
-      "description": "A close match with both teams in similar form."
-    },
-    "stats": {
-      "homeForm": "LLDWL",
-      "awayForm": "WLLDW",
-      "h2h": "Limited H2H data, suggesting a competitive match.",
-      "keyInsights": "Both teams are in similar form and are battling in the lower half of the J3 League table. Hachinohe's home advantage might give them a slight edge, but a draw is a strong possibility."
-    },
-    "reasoning": "This J3 League match between Hachinohe and Sanuki is likely to be a close contest. Both teams are in similar form and are fighting to avoid the lower regions of the table. Hachinohe's home advantage could be a factor, but Sanuki has shown they can be stubborn opponents. The odds for a draw are attractive given the evenly matched nature of the teams."
-  },
-  {
-    "id": "match_15",
-    "date": "2025-11-24",
-    "time": "20:00",
-    "league": "J3 League",
-    "homeTeam": "Kagoshima United FC",
-    "awayTeam": "RYUKYU",
-    "fixture_verification_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEVWrglN-UZ7tHGhFu-tnq6f63hcW1zFt0VO2yd9uLDjv92JXHbd2AE8_5OZHo-eh8NY2yJlfzhw_LKmvjYhE2𝚙WVc1sNl5N9sO762R-F29wc3kOWcqUOP40zR8RsG5godh6LaeDgZVkeBxB-n_BlfmQLs2A==",
-    "prediction": {
-      "homeWin": 45,
-      "draw": 25,
-      "awayWin": 30
-    },
-    "safeBet": {
-      "title": "Double Chance 1X",
-      "odds": "1.30",
-      "description": "Kagoshima United FC at home against RYUKYU."
-    },
-    "valueBet": {
-      "title": "Kagoshima United FC to Win",
-      "odds": "2.05",
-      "description": "Kagoshima's strong home form against RYUKYU's inconsistent away performances."
-    },
-    "stats": {
-      "homeForm": "DWWDL",
-      "awayForm": "LLWDL",
-      "h2h": "Kagoshima has a slightly better H2H record.",
-      "keyInsights": "Kagoshima United FC have been performing well at home and will be looking to secure three points against RYUKYU, who have struggled on the road."
-    },
-    "reasoning": "Kagoshima United FC will be looking to extend their solid home form against RYUKYU. Kagoshima has been a tough team to beat at home, while RYUKYU's away performances have been erratic. The odds for a Kagoshima United FC win offer decent value given their home advantage and RYUKYU's struggles on the road."
+    "reasoning": "Union de Santa Fe is slightly favored due to their overall consistency and tactical approach. However, Gimnasia LP's recent impressive defensive form and winning streak make them a dangerous opponent. The prediction of a 55% win probability for Union suggests they are the stronger candidate, especially in a playoff context where home advantage or perceived form can be decisive."
   }
 ]
