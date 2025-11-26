@@ -1,12 +1,11 @@
 import React, { useEffect, useState } from 'react';
-import { useLocalSearchParams, Stack } from 'expo-router';
-import { View, Text, ScrollView, ActivityIndicator, SafeAreaView, TouchableOpacity } from 'react-native';
+import { View, Text, ScrollView, ActivityIndicator, TouchableOpacity } from 'react-native';
+import { SafeAreaView } from 'react-native-safe-area-context';
 import { getMatchById } from '@/services/geminiService';
 import { Match } from '@/types';
 import { LinearGradient } from 'expo-linear-gradient';
 import { GlassView } from '@/components/GlassView';
 import { ArrowLeft, TrendingUp, ShieldCheck, BrainCircuit, BarChart3 } from 'lucide-react-native';
-import { useRouter } from 'expo-router';
 
 export default function MatchDetailScreen() {
     const { id } = useLocalSearchParams();
@@ -36,12 +35,12 @@ export default function MatchDetailScreen() {
     if (!match) {
         return (
             <View className="flex-1 bg-slate-950 items-center justify-center p-6">
-                 <GlassView>
+                <GlassView>
                     <Text className="text-white text-center font-bold text-lg">Match not found</Text>
                     <TouchableOpacity onPress={() => router.back()} className="mt-4 bg-white/10 p-3 rounded-xl">
                         <Text className="text-white text-center">Go Back</Text>
                     </TouchableOpacity>
-                 </GlassView>
+                </GlassView>
             </View>
         );
     }
@@ -77,11 +76,11 @@ export default function MatchDetailScreen() {
                     <GlassView style={{ marginTop: 10, marginBottom: 20, alignItems: 'center' }} intensity={40}>
                         <Text className="text-xs text-blue-300 font-bold uppercase tracking-widest mb-4">{match.league}</Text>
                         <View className="flex-row items-center justify-between w-full px-2">
-                             <View className="flex-1 items-center">
+                            <View className="flex-1 items-center">
                                 <Text className="text-2xl font-bold text-white text-center mb-1">{match.homeTeam}</Text>
                             </View>
                             <Text className="text-slate-500 font-thin text-2xl px-4 italic">VS</Text>
-                             <View className="flex-1 items-center">
+                            <View className="flex-1 items-center">
                                 <Text className="text-2xl font-bold text-white text-center mb-1">{match.awayTeam}</Text>
                             </View>
                         </View>
@@ -107,7 +106,7 @@ export default function MatchDetailScreen() {
                     <View className="flex-row gap-4 mb-6">
                         {/* Safe Bet */}
                         <View className="flex-1">
-                             <View className="flex-row items-center gap-2 mb-3 px-1">
+                            <View className="flex-row items-center gap-2 mb-3 px-1">
                                 <ShieldCheck size={18} color="#34d399" />
                                 <Text className="text-emerald-400 font-bold uppercase text-[10px] tracking-widest">Safe Bet</Text>
                             </View>
@@ -120,7 +119,7 @@ export default function MatchDetailScreen() {
 
                         {/* Value Bet */}
                         <View className="flex-1">
-                             <View className="flex-row items-center gap-2 mb-3 px-1">
+                            <View className="flex-row items-center gap-2 mb-3 px-1">
                                 <TrendingUp size={18} color="#fbbf24" />
                                 <Text className="text-amber-400 font-bold uppercase text-[10px] tracking-widest">Value Bet</Text>
                             </View>
@@ -147,11 +146,11 @@ export default function MatchDetailScreen() {
                                 <Text className="text-slate-500 text-xs font-bold uppercase mb-1">Away Form</Text>
                                 <Text className="text-slate-200 text-sm">{match.stats.awayForm}</Text>
                             </View>
-                             <View className="mb-4">
+                            <View className="mb-4">
                                 <Text className="text-slate-500 text-xs font-bold uppercase mb-1">Head to Head</Text>
                                 <Text className="text-slate-200 text-sm">{match.stats.h2h}</Text>
                             </View>
-                             <View>
+                            <View>
                                 <Text className="text-slate-500 text-xs font-bold uppercase mb-1">Key Insight</Text>
                                 <Text className="text-white font-medium text-sm italic border-l-2 border-purple-500 pl-3 py-1">
                                     "{match.stats.keyInsights}"
