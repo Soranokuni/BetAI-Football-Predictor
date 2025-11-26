@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { useLocalSearchParams, Stack, useRouter } from 'expo-router';
 import { View, Text, ScrollView, ActivityIndicator, TouchableOpacity } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { getMatchById } from '@/services/geminiService';

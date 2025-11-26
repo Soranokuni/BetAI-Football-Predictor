@@ -42,6 +42,7 @@ jobs:
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git add public/matches.json
           git commit -m "Update daily matches" || echo "No changes to commit"
+          git pull --rebase origin main
           git push
 
       - name: Build
