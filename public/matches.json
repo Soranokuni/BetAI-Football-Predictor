@@ -1,126 +1,312 @@
 [
   {
-    "id": "MIRCEA-20251125",
-    "date": "2025-11-25",
-    "time": "04:00",
-    "league": "Brasileirão Serie A",
-    "homeTeam": "Mirassol",
-    "awayTeam": "Ceará",
-    "fixture_verification_url": "https://www.goal.com/en/news/brazil-serie-a-24-25-november-2025/",
+    "id": "match_1",
+    "date": "2025-11-26",
+    "time": "00:30",
+    "league": "Campeonato Brasileiro Série A",
+    "homeTeam": "Atlético Mineiro",
+    "awayTeam": "Flamengo",
+    "fixture_verification_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEiZ3X1UFqcUXT4FLr2pbxSCwIcZrHg-wE5bgv9B8KAgUityD1EFTNWqRUYKpxzrGsnmBKIbu1_ubnrRNwCu3aRHXPxhcyazrDAuo8zsI5l0m8KAvwd1HZOWpWVa46GLAMnQUDYwLlZHblHmk3dx6PzMogPmRfs7BO2XNdGofnYNuYGAYsojWNJ5LJiTD6f5xa4iHg58zVMVtPxYuOdg5NOyZRrwJifosFf6nKv",
     "prediction": {
-      "homeWin": 55,
-      "draw": 25,
-      "awayWin": 20
+      "homeWin": 30,
+      "draw": 35,
+      "awayWin": 35
+    },
+    "safeBet": {
+      "title": "Double Chance X2",
+      "odds": "1.50",
+      "description": "Flamengo to win or draw."
+    },
+    "valueBet": {
+      "title": "Draw",
+      "odds": "3.25",
+      "description": "A draw could be a likely outcome given Flamengo's title push and Atletico's need to consolidate their position."
+    },
+    "stats": {
+      "homeForm": "Atlético Mineiro without a win in their last 3 matches. Won 6 of their last 10 home matches.",
+      "awayForm": "Flamengo on a 3-win streak in their last 4 matches.",
+      "h2h": "More than 60 meetings played with 22 wins for Atlético and 25 wins for Flamengo.",
+      "keyInsights": "Flamengo leads the league and is chasing the title. Atlético Mineiro is in 11th position and needs to consolidate. Flamengo has a strong recent run of form."
+    },
+    "reasoning": "This is a crucial match for Flamengo in their title pursuit. While Atlético Mineiro has a decent home record, their recent form is concerning. Flamengo's winning streak makes them strong contenders, but Atlético's need to secure points at home and the historical head-to-head, which is relatively balanced, suggests that a draw is also a very possible outcome. Therefore, a Double Chance X2 for Flamengo offers a safer bet, while a draw represents a value bet."
+  },
+  {
+    "id": "match_2",
+    "date": "2025-11-26",
+    "time": "02:30",
+    "league": "Campeonato Brasileiro Série A",
+    "homeTeam": "Grêmio",
+    "awayTeam": "Palmeiras",
+    "fixture_verification_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGNFtYSvZl_1MuNWIyLNro0_SRa-xPxZdGrYmEwNNYZu90h09mpLm4qxxmg7rUdEbKOG30p6g6nbgDdnSO2sEEznPJJHECnUJOap850qxz7EsQX0_-11YXXaDTcPCuF6UinwxOyDJfT4egamDD6RpO6RMs=",
+    "prediction": {
+      "homeWin": 35,
+      "draw": 30,
+      "awayWin": 35
     },
     "safeBet": {
       "title": "Double Chance 1X",
-      "odds": "1.66",
-      "description": "Mirassol or Draw. Mirassol is in a strong position to qualify for the Copa Libertadores and is expected to at least avoid defeat at home."
+      "odds": "1.60",
+      "description": "Grêmio to win or draw."
     },
     "valueBet": {
-      "title": "Mirassol to win and Over 2.5 Goals",
-      "odds": "N/A",
-      "description": "Mirassol has a good chance of winning, and if they do, there's potential for a moderate-scoring game."
+      "title": "Home Win",
+      "odds": "2.30",
+      "description": "Grêmio has a strong home record and will be motivated to secure points."
     },
     "stats": {
-      "homeForm": "Mirassol drew 1-1 away to Santos in their last reported match. They are in a \"privileged position to qualify for the Copa Libertadores\".",
-      "awayForm": "Ceará is in a precarious position, possibly facing relegation. They tend to concede few goals away from home.",
-      "h2h": "Mirassol has the historical advantage, winning 3 out of 5 encounters, with 1 draw and 1 win for Ceará.",
-      "keyInsights": "Mirassol fighting for Libertadores qualification, Ceará fighting relegation. Mirassol has a strong home record implied by their league standing."
+      "homeForm": "Grêmio has a strong home record, though they have conceded many goals this season. Recent form includes a 3-2 loss away to Botafogo.",
+      "awayForm": "Palmeiras has not won in their last four games, and the title is slipping away. They have a good away resilience.",
+      "h2h": "Historically, this fixture has delivered tightly fought matches.",
+      "keyInsights": "Palmeiras are title contenders, but their recent form is a concern. Grêmio is looking to bolster their top-half push at home. Palmeiras' corner kick average is high, indicating attacking pressure."
     },
-    "reasoning": "Mirassol's fight for continental qualification gives them significant motivation. Ceará's relegation battle also provides a strong incentive, but Mirassol's historical advantage and current league standing suggest they are the favorites, at least to secure a point at home."
+    "reasoning": "This is a tough match to call. Palmeiras is the stronger team on paper and a title contender, but their recent winless streak is a major concern. Grêmio has a better home record and will be highly motivated. The historical head-to-head suggests close games. Given Palmeiras' recent struggles, Grêmio might have the edge at home, making a home win a value bet. A safer bet would be on Grêmio not to lose, considering their home advantage."
   },
   {
-    "id": "INTOSAN-20251125",
-    "date": "2025-11-25",
-    "time": "02:00",
-    "league": "Brasileirão Serie A",
-    "homeTeam": "Internacional",
-    "awayTeam": "Santos",
-    "fixture_verification_url": "https://www.red94.net/en/news/internacional-favored-over-santos-with-57-home-win-rate-dominates-18-13-in-head-to-head-matchups/",
+    "id": "match_3",
+    "date": "2025-11-26",
+    "time": "07:05",
+    "league": "Saudi Professional League",
+    "homeTeam": "Al Okhdood",
+    "awayTeam": "Al Shabab",
+    "fixture_verification_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGhyqQ7co9bU3kVZLMcaQnLd5PRxbsobx1OhB9E0vGxY-AZGz_vG6nOqR1MIANUSlXl_6qg9sEGVRku7-JQyKKP58soFnZKiM3PQb7E3pIAZ6o1CybQCD1BqdqdwDjHVnhsKN4W9lDKye83qWtTBJxzwFJw30jqm68nansDcs0UmxXUM_AZ3Q==",
+    "prediction": {
+      "homeWin": 35,
+      "draw": 35,
+      "awayWin": 30
+    },
+    "safeBet": {
+      "title": "Double Chance 1X",
+      "odds": "1.50",
+      "description": "Al Okhdood to win or draw."
+    },
+    "valueBet": {
+      "title": "Draw",
+      "odds": "3.30",
+      "description": "Both teams have similar form and league positions, making a draw a plausible outcome."
+    },
+    "stats": {
+      "homeForm": "Al Okhdood: L W D L L",
+      "awayForm": "Al Shabab: D L D D L",
+      "h2h": "No recent head-to-head data readily available.",
+      "keyInsights": "Both teams are in the lower half of the table with similar recent form. Al Shabab has a slightly better defensive record in their last 5 games."
+    },
+    "reasoning": "This fixture pits two teams with very similar recent form and league standings against each other. Al Okhdood's home advantage might give them a slight edge, but Al Shabab's slightly more solid defense in recent matches could see them hold firm. A draw appears to be a strong possibility, making it a good value bet. For a safer bet, considering Al Okhdood's home advantage, a Double Chance 1X is reasonable."
+  },
+  {
+    "id": "match_4",
+    "date": "2025-11-26",
+    "time": "17:00",
+    "league": "Liga MX",
+    "homeTeam": "FC Juárez",
+    "awayTeam": "Toluca",
+    "fixture_verification_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHWU6ptPlcQU9kFzKhH9Qivg-nqRVH-lmo5v1nItyE1Md-qSmZ_In6N6QRA9LXGzCrXGyb9_kkVxlq7c1ujr9pkgJNpxjVYqW379TCthQdzFlotKMho09FR5VScNvAUTEV9zdu9jRFJ3uyd1iAP1MtelxF7oJCzFjsbJrAG-uAGuo_JiZU-TZGmqBgsrri3PxSM4sNYtK9jBbbqfnUG8r1GE4uZRrNqhcY=",
+    "prediction": {
+      "homeWin": 25,
+      "draw": 35,
+      "awayWin": 40
+    },
+    "safeBet": {
+      "title": "Double Chance X2",
+      "odds": "1.45",
+      "description": "Toluca to win or draw."
+    },
+    "valueBet": {
+      "title": "Away Win",
+      "odds": "2.10",
+      "description": "Toluca has a better league position and is in slightly better form."
+    },
+    "stats": {
+      "homeForm": "FC Juárez struggles for consistency, often drawing at home.",
+      "awayForm": "Toluca has a better league standing and slightly more consistent results.",
+      "h2h": "Recent head-to-head matches show a tendency for close games, with both teams securing wins.",
+      "keyInsights": "Toluca is in a better league position and has shown more consistent performances. Juárez's home form is mixed, with a high number of draws."
+    },
+    "reasoning": "Toluca enters this match as the favorite due to their better league position and more consistent performances. FC Juárez has a tendency to draw games, especially at home, which makes a draw a strong possibility. However, Toluca's overall quality and form suggest they have a good chance of securing a win. Therefore, a Double Chance X2 for Toluca is a safe bet, while a direct away win offers better value."
+  },
+  {
+    "id": "match_5",
+    "date": "2025-11-26",
+    "time": "19:05",
+    "league": "Liga MX",
+    "homeTeam": "C.F. Monterrey",
+    "awayTeam": "Club América",
+    "fixture_verification_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEgyUwEOJSHqjcJoARM8rDOcayGfBfNaZ8JdviHoadNa3eiV4VFE5Qu_duf_0gzP-3jf9ilGCREVAG4KVxt6uCe4TqT5btTX7c2TDtlIfJuw3CDdOOwnAqDJfYSiHedBtzjINwfFzA88cze_skBo1-Ddhh2LTNllTt7IEOXql53wWRgmV_KqRuo-fY=",
+    "prediction": {
+      "homeWin": 35,
+      "draw": 35,
+      "awayWin": 30
+    },
+    "safeBet": {
+      "title": "Double Chance 1X",
+      "odds": "1.55",
+      "description": "C.F. Monterrey to win or draw."
+    },
+    "valueBet": {
+      "title": "Both Teams to Score: Yes",
+      "odds": "1.70",
+      "description": "Both teams have strong attacking forces and have shown defensive vulnerabilities."
+    },
+    "stats": {
+      "homeForm": "Monterrey has a strong attacking trio, but their defense has been leaky in recent matches, conceding in six straight contests.",
+      "awayForm": "Club América has also shown defensive struggles on the road, conceding in six of their previous seven away trips.",
+      "h2h": "The most recent meeting between these two teams was a thrilling four-goal draw. Historically, these two have scored in five of the previous six fixtures.",
+      "keyInsights": "This is a playoff quarterfinal match between two Liga MX giants. Both teams possess significant firepower, but both have also shown defensive weaknesses. The previous encounter ended in a draw, indicating a closely contested match."
+    },
+    "reasoning": "This is a high-stakes playoff match between two of Liga MX's top clubs. Both teams are known for their attacking prowess but have also shown defensive frailties. The previous encounter ended in a draw, and historical head-to-head data also suggests that both teams tend to score. Therefore, 'Both Teams to Score: Yes' is a strong value bet. For a safer option, considering Monterrey's home advantage and the fact that draws are common in these types of matches, a Double Chance 1X is a good choice."
+  },
+  {
+    "id": "match_6",
+    "date": "2025-11-26",
+    "time": "21:00",
+    "league": "Liga MX",
+    "homeTeam": "Club Tijuana",
+    "awayTeam": "Tigres UANL",
+    "fixture_verification_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGYB86O3LT2VAj30CPe20Q-zcA3ABgTxqrSvFhEfwvONIcxsqTZRzOsdEcjsfyZK200Bv5yrR9Zz7tMr_MnOCCGc3dvxCI7o7QJ9fZ1mSCqFfO3qz_bgn21TDsbvqjRr8vrJbn1cNnuDJMmg6Y=",
+    "prediction": {
+      "homeWin": 20,
+      "draw": 25,
+      "awayWin": 55
+    },
+    "safeBet": {
+      "title": "Away Win",
+      "odds": "1.80",
+      "description": "Tigres UANL are in superior form and have a strong historical advantage."
+    },
+    "valueBet": {
+      "title": "Over 2.5 Goals",
+      "odds": "1.95",
+      "description": "Recent Tigres matches have seen a good number of goals, and Tijuana's defense can be leaky."
+    },
+    "stats": {
+      "homeForm": "Club Tijuana's form has been inconsistent, with a high percentage of losses.",
+      "awayForm": "Tigres UANL has a strong winning record against Club Tijuana and is generally in better form.",
+      "h2h": "Tigres UANL has a dominant head-to-head record against Club Tijuana, with many convincing victories.",
+      "keyInsights": "Tigres UANL are the clear favorites based on form and historical performance. Club Tijuana struggles to consistently challenge top teams."
+    },
+    "reasoning": "Tigres UANL's historical dominance over Club Tijuana and their current form make them strong favorites. Tijuana has struggled against Tigres in the past. While a draw is possible, Tigres' attacking strength and Tijuana's defensive record suggest that an away win is the most probable outcome, making it a safe bet. For value, considering Tigres' attacking output, betting on over 2.5 goals could be a good option."
+  },
+  {
+    "id": "match_7",
+    "date": "2025-11-26",
+    "time": "04:15",
+    "league": "AFC Champions League Elite",
+    "homeTeam": "Shanghai Shenhua FC",
+    "awayTeam": "Urawa Reds",
+    "fixture_verification_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGTnLt0MoEaa-3NRqs5iBmMFNJ45l6Yf94vSjgkq7IfcRqUmkUZb11xYS5xBKFCS5t3NWbK_11puCvo7KYPnHEcVS15-J5bY0OIJZ--845U0v55PHTxSWfJX3wW",
+    "prediction": {
+      "homeWin": 40,
+      "draw": 35,
+      "awayWin": 25
+    },
+    "safeBet": {
+      "title": "Double Chance 1X",
+      "odds": "1.35",
+      "description": "Shanghai Shenhua FC to win or draw."
+    },
+    "valueBet": {
+      "title": "Home Win",
+      "odds": "2.00",
+      "description": "Shanghai Shenhua is playing at home in a crucial group stage match."
+    },
+    "stats": {
+      "homeForm": "Shanghai Shenhua has been performing well in the AFC Champions League, winning their recent matches.",
+      "awayForm": "Urawa Reds have shown some resilience but are facing a tough away fixture.",
+      "h2h": "Limited readily available head-to-head data for this specific fixture.",
+      "keyInsights": "This is a critical group stage match in the AFC Champions League. Shanghai Shenhua has a strong home record in this competition."
+    },
+    "reasoning": "Shanghai Shenhua's strong performance in the AFC Champions League, especially at home, makes them the slight favorite in this crucial group stage encounter. Urawa Reds are a capable side, but facing Shanghai away will be a significant challenge. A draw is a plausible outcome, but the home advantage for Shanghai should give them the edge. Therefore, a Double Chance 1X for Shanghai Shenhua is a safe bet, while a direct home win offers better value."
+  },
+  {
+    "id": "match_8",
+    "date": "2025-11-26",
+    "time": "20:00",
+    "league": "J3 League",
+    "homeTeam": "Vanraure Hachinohe",
+    "awayTeam": "FC Imabari",
+    "fixture_verification_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGTnLt0MoEaa-3NRqs5iBmMFNJ45l6Yf94vSjgkq7IfcRqUmkUZb11xYS5xBKFCS5t3NWbK_11puCvo7KYPnHEcVS15-J5bY0OIJZ--845U0v55PHTxSWfJX3wW",
+    "prediction": {
+      "homeWin": 40,
+      "draw": 30,
+      "awayWin": 30
+    },
+    "safeBet": {
+      "title": "Double Chance 1X",
+      "odds": "1.50",
+      "description": "Vanraure Hachinohe to win or draw."
+    },
+    "valueBet": {
+      "title": "Home Win",
+      "odds": "2.20",
+      "description": "Vanraure Hachinohe is playing at home and has a slight edge in recent form."
+    },
+    "stats": {
+      "homeForm": "Vanraure Hachinohe has shown decent form at home.",
+      "awayForm": "FC Imabari has been inconsistent, with mixed results away from home.",
+      "h2h": "Limited head-to-head data available for this fixture.",
+      "keyInsights": "This is a J3 League match, and home advantage can be significant. Both teams are likely to be motivated to secure points in a competitive league."
+    },
+    "reasoning": "Vanraure Hachinohe has a slight advantage playing at home and a slightly better recent form compared to FC Imabari. While FC Imabari is capable of getting a result, the home crowd and Vanraure's determination should see them secure at least a draw. A Double Chance 1X for Vanraure Hachinohe is a safe bet, and a direct home win offers decent value."
+  },
+  {
+    "id": "match_9",
+    "date": "2025-11-26",
+    "time": "11:00",
+    "league": "Bolivian Primera División",
+    "homeTeam": "Guabirá",
+    "awayTeam": "The Strongest",
+    "fixture_verification_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGYB86O3LT2VAj30CPe20Q-zcA3ABgTxqrSvFhEfwvONIcxsqTZRzOsdEcjsfyZK200Bv5yrR9Zz7tMr_MnOCCGc3dvxCI7o7QJ9fZ1mSCqFfO3qz_bgn21TDsbvqjRr8vrJbn1cNnuDJMmg6Y=",
+    "prediction": {
+      "homeWin": 25,
+      "draw": 30,
+      "awayWin": 45
+    },
+    "safeBet": {
+      "title": "Away Win",
+      "odds": "1.85",
+      "description": "The Strongest are in better form and have a superior league position."
+    },
+    "valueBet": {
+      "title": "The Strongest to win and Both Teams to Score",
+      "odds": "3.50",
+      "description": "The Strongest are strong offensively, and Guabirá might concede at home."
+    },
+    "stats": {
+      "homeForm": "Guabirá's home form can be inconsistent.",
+      "awayForm": "The Strongest have a strong record away from home and are title contenders.",
+      "h2h": "Head-to-head results tend to favor The Strongest.",
+      "keyInsights": "The Strongest are fighting for the title and have a good away record. Guabirá will be looking to cause an upset at home."
+    },
+    "reasoning": "The Strongest's pursuit of the league title and their strong away form make them the clear favorites against Guabirá. While Guabirá can be a tough opponent at home, The Strongest's quality and motivation should prevail. The away win is a safe bet. For value, considering The Strongest's attacking prowess and the possibility of Guabirá conceding, betting on The Strongest to win and both teams to score offers a good return."
+  },
+  {
+    "id": "match_10",
+    "date": "2025-11-26",
+    "time": "20:00",
+    "league": "K League 2 Promotion Playoff",
+    "homeTeam": "Seoul E-Land FC",
+    "awayTeam": "Seongnam FC",
+    "fixture_verification_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG0BpZGf4gSnw5u5fOKt_HGMgrXudxckJJfA893pmkufTQeNr92Ivb0vOFDFZKMn3ilB0WYjPhpgD02DFuOO2JbxzR4D8",
     "prediction": {
       "homeWin": 45,
       "draw": 30,
       "awayWin": 25
     },
     "safeBet": {
-      "title": "Double Chance 1X",
-      "odds": "1.75",
-      "description": "Internacional or Draw. Internacional has a strong home record and a historical dominance over Santos, making them likely to at least avoid defeat."
-    },
-    "valueBet": {
-      "title": "Internacional to win",
-      "odds": "2.23",
-      "description": "Internacional is listed as the favorite by bookmakers and has a superior head-to-head record and home form."
-    },
-    "stats": {
-      "homeForm": "Internacional has a 7-5-5 home record this season. They have a 57% home win rate historically.",
-      "awayForm": "Santos struggles on the road, with a 3-4-10 away record.",
-      "h2h": "Internacional dominates this fixture, leading 18-13 in wins across 47 meetings. Internacional is unbeaten in their last 7 meetings against Santos.",
-      "keyInsights": "Both teams are in a critical relegation battle. Internacional has a significant historical advantage and better home form. Neymar's presence for Santos is a factor but may not be enough to overcome Internacional's home strength and historical dominance."
-    },
-    "reasoning": "This is a crucial relegation six-pointer. Internacional's historical dominance over Santos, coupled with their better home form, makes them slight favorites. Santos' struggles away from home are a major concern for them. Internacional's motivation to secure survival at home will be very high."
-  },
-  {
-    "id": "ATMFLA-20251125",
-    "date": "2025-11-25",
-    "time": "00:30",
-    "league": "Brasileirão Serie A",
-    "homeTeam": "Atlético Mineiro",
-    "awayTeam": "Flamengo",
-    "fixture_verification_url": "https://sportytrader.com/football/brazil/serie-a/atletico-mg-flamengo-25-11-2025-951572/",
-    "prediction": {
-      "homeWin": 38,
-      "draw": 29,
-      "awayWin": 33
-    },
-    "safeBet": {
-      "title": "Under 2.5 Goals",
-      "odds": "1.62",
-      "description": "Both teams have strong defenses, and title deciders can often be cagey affairs."
-    },
-    "valueBet": {
-      "title": "Flamengo to win",
-      "odds": "1.92",
-      "description": "Flamengo is the league leader and has a strong recent record, making them favorites despite Atlético Mineiro's home advantage."
-    },
-    "stats": {
-      "homeForm": "Atlético Mineiro's recent form includes draws and wins, but also losses. They have struggled for consistency.",
-      "awayForm": "Flamengo is the league leader and is in strong form, though they did stumble against Fluminense recently.",
-      "h2h": "Flamengo has only one loss in their last seven matches against Atlético Mineiro.",
-      "keyInsights": "This is a crucial match for Flamengo to potentially clinch the league title. Atlético Mineiro will be looking to spoil their party and secure their own continental ambitions. Flamengo's motivation is extremely high as they aim to secure the title."
-    },
-    "reasoning": "Flamengo, as the league leaders and with a strong recent record against Atlético Mineiro, are clear favorites to secure the title. Their motivation will be immense, and they have the quality to overcome Atlético Mineiro, even away from home. While Atlético Mineiro will be competitive, Flamengo's overall strength and current form make them the more likely winners."
-  },
-  {
-    "id": "UNIGIM-20251125",
-    "date": "2025-11-25",
-    "time": "03:00",
-    "league": "Argentine Primera División",
-    "homeTeam": "Union de Santa Fe",
-    "awayTeam": "Gimnasia LP",
-    "fixture_verification_url": "https://www.tips.gg/matches/union-de-santa-fe-vs-gimnasia-lp-25112025/",
-    "prediction": {
-      "homeWin": 55,
-      "draw": 25,
-      "awayWin": 20
-    },
-    "safeBet": {
-      "title": "Union de Santa Fe to Win",
-      "odds": "N/A",
-      "description": "Union de Santa Fe has a strong defensive structure and has shown consistency, making them the favored team."
-    },
-    "valueBet": {
-      "title": "BTTS - No",
+      "title": "Home Win (Higher Seed)",
       "odds": "1.70",
-      "description": "Gimnasia LP has secured three consecutive clean sheets, suggesting a strong defensive record that might lead to a low-scoring game."
+      "description": "Seoul E-Land FC has the home advantage as the higher seed and a slightly better league finish."
+    },
+    "valueBet": {
+      "title": "Seoul E-Land FC to win to nil",
+      "odds": "2.80",
+      "description": "Seoul E-Land has a strong offensive record, and Seongnam's defense can be porous."
     },
     "stats": {
-      "homeForm": "Union de Santa Fe's recent form includes draws and a narrow victory, with a notable 3-0 win against Defensa y Justicia. They are known for deliberate passing and disciplined pressing.",
-      "awayForm": "Gimnasia LP is on a strong run, with a 100% win rate in November and three consecutive clean sheets.",
-      "h2h": "Historical trends are not explicitly detailed for this specific fixture in the provided snippets.",
-      "keyInsights": "This is a playoff match, implying high stakes. Gimnasia's recent defensive solidity is a key factor, while Union's tactical discipline and offensive capabilities are also noted."
+      "homeForm": "Seoul E-Land FC finished one point above Seongnam FC in the league and have a strong home record. They scored the third-most goals in the league.",
+      "awayForm": "Seongnam FC had the second-stingiest defense but only scored 46 goals. They lost three of their four meetings against Seoul E-Land this season.",
+      "h2h": "Seoul E-Land FC won three of their four meetings this season.",
+      "keyInsights": "This is a playoff match with promotion at stake. Seoul E-Land FC has the advantage of playing at home as the higher seed. Their superior offensive record against Seongnam's more defensive style is a key factor."
     },
-    "reasoning": "Union de Santa Fe is slightly favored due to their overall consistency and tactical approach. However, Gimnasia LP's recent impressive defensive form and winning streak make them a dangerous opponent. The prediction of a 55% win probability for Union suggests they are the stronger candidate, especially in a playoff context where home advantage or perceived form can be decisive."
+    "reasoning": "Seoul E-Land FC's home advantage, better league position, and superior head-to-head record against Seongnam FC make them the favorites. Seongnam's defensive solidity is noted, but Seoul's attacking power, which was superior in their league meetings, should be enough to secure a win. The 'higher seed' rule also means a draw favors Seoul E-Land, making their win a relatively safe bet. For value, Seoul E-Land's offensive strength against Seongnam's defense suggests a potential 'to nil' victory."
   }
 ]
