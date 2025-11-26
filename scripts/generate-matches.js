@@ -134,12 +134,17 @@ async function generateMatches() {
       // Remove markdown code blocks if present (even with responseMimeType, sometimes it happens)
       cleanText = cleanText.replace(/^```json\s*/, '').replace(/^```\s*/, '').replace(/\s*```$/, '');
 
-      // Robust JSON extraction: Find first '[' and last ']'
-      const firstOpen = cleanText.indexOf('[');
-      const lastClose = cleanText.lastIndexOf(']');
-
-      if (firstOpen !== -1 && lastClose !== -1 && lastClose > firstOpen) {
-        cleanText = cleanText.substring(firstOpen, lastClose + 1);
+      // Robust JSON extraction: Find the first JSON array
+      const jsonMatch = cleanText.match(/\[\s*\{[\s\S]*\}\s*\]/);
+      if (jsonMatch) {
+        cleanText = jsonMatch[0];
+      } else {
+        // Fallback: Try to find just the array brackets if the inner structure check fails
+        const firstOpen = cleanText.indexOf('[');
+        const lastClose = cleanText.lastIndexOf(']');
+        if (firstOpen !== -1 && lastClose !== -1 && lastClose > firstOpen) {
+          cleanText = cleanText.substring(firstOpen, lastClose + 1);
+        }
       }
 
       console.log("Text to parse (first 100 chars):", cleanText.substring(0, 100) + "...");
