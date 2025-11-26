@@ -24,63 +24,39 @@ async function generateMatches() {
   console.log(`Generating matches for date: ${today}, current time: ${now} UTC`);
 
   const prompt = `
-    Act as a professional football analyst and betting expert.
+    You are a sports data analyst.
     Current Date: ${today}
     Current Time: ${now} UTC
     
-    Task: Identify UP TO 10 valid, confirmed football matches happening TODAY (${today}) that have NOT yet started (start time must be after ${now} UTC).
+    Task: Use the Google Search tool to find scheduled professional football matches for TODAY (${today}).
     
-    CRITICAL INSTRUCTION: REALITY > SIGNIFICANCE.
-    1. It is better to return 3 REAL matches from a lower league than 10 FAKE matches from the Premier League.
-    2. If today is a Thursday, check for Europa League/Conference League.
-    3. If today is during an International Break, check for National Team matches (World Cup Qualifiers, Nations League).
-    4. If no European matches are on, CHECK GLOBAL LEAGUES:
-       - South America: Brasileirão, Argentine Primera, Copa Libertadores/Sudamericana.
-       - North America: Liga MX (Mexico), MLS (USA).
-       - Asia: Saudi Pro League, J-League, K-League.
-       - Africa: CAF Champions League or major domestic leagues.
-    5. DO NOT INVENT MATCHES. If Man Utd is not playing today, DO NOT list them.
-    
-    Verification Steps:
-    1. Search for "Football matches today ${today}".
-    2. Search specifically for "Liga MX matches today", "Saudi Pro League matches today", "Brasileirão matches today".
-    3. Verify the fixture exists on a reputable sports site.
-    4. Check for duplicates (Team A vs Team B AND Team A vs Team C is impossible).
-    
-    Constraints:
-    1. EXCLUDE all women's football matches. Men's football only.
-    2. PREFER Top European Leagues, but ONLY if they are actually playing today.
-    3. IF NO Top European matches, take ANY professional match from the leagues listed above (Liga MX, Saudi, etc.).
-    4. Select the most "significant" *available* matches (Title contenders > Mid-table).
-    
-    For each match, perform a deep analysis using Google Search to find:
-    1. CONFIRM the match date, time, and OPPONENT.
-    2. Recent form (last 5 games).
-    3. Head-to-Head (H2H) history.
-    4. Key player injuries/suspensions.
-    5. Motivation/League standing context.
-    6. Viral sentiment (is it a derby? a title decider?).
+    Step 1: Search for "football matches today ${today}" and specific leagues like "Liga MX schedule ${today}", "Brasileirão schedule ${today}", "AFC Champions League schedule ${today}".
+    Step 2: Identify up to 10 confirmed matches that have NOT started yet (time > ${now} UTC).
+    Step 3: For each match, find recent form and head-to-head stats.
+    Step 4: Generate a JSON array with the match details.
 
-    Based on this, calculate a percentage probability for Home Win, Draw, and Away Win.
-    Suggest a "Safe Bet" (high probability, lower odds) and a "Value Bet" (medium/high risk, better odds).
+    CRITICAL:
+    - You MUST use the googleSearch tool. Do not say you cannot access real-time data.
+    - Return ONLY valid JSON. No markdown, no conversational text.
+    - If no matches are found, return an empty array [].
 
-    Output Requirement:
-    Return ONLY a valid JSON array.
-    The structure of each object in the array MUST be:
-    {
-      "id": "string (unique)",
-      "date": "string (YYYY-MM-DD) - MUST BE ${today}",
-      "time": "string (UTC time, e.g., 20:00)",
-      "league": "string",
-      "homeTeam": "string",
-      "awayTeam": "string",
-      "fixture_verification_url": "string (URL where you confirmed this specific match)",
-      "prediction": { "homeWin": number, "draw": number, "awayWin": number }, // Sum to 100
-      "safeBet": { "title": "string (e.g. Double Chance 1X)", "odds": "string (e.g. 1.25)", "description": "string" },
-      "valueBet": { "title": "string (e.g. Home Win & Over 2.5)", "odds": "string (e.g. 2.80)", "description": "string" },
-      "stats": { "homeForm": "string", "awayForm": "string", "h2h": "string", "keyInsights": "string" },
-      "reasoning": "string (A concise paragraph explaining the percentages and bets)"
-    }
+    JSON Structure:
+    [
+      {
+        "id": "unique_string",
+        "date": "${today}",
+        "time": "HH:MM (UTC)",
+        "league": "League Name",
+        "homeTeam": "Home Team",
+        "awayTeam": "Away Team",
+        "fixture_verification_url": "URL",
+        "prediction": { "homeWin": 40, "draw": 30, "awayWin": 30 },
+        "safeBet": { "title": "Bet Name", "odds": "Decimal", "description": "Reason" },
+        "valueBet": { "title": "Bet Name", "odds": "Decimal", "description": "Reason" },
+        "stats": { "homeForm": "...", "awayForm": "...", "h2h": "...", "keyInsights": "..." },
+        "reasoning": "..."
+      }
+    ]
   `;
 
   const maxRetries = 5;
@@ -94,63 +70,40 @@ async function generateMatches() {
         contents: prompt,
         config: {
           tools: [{ googleSearch: {} }],
-          responseMimeType: 'application/json', // Force JSON output
+          responseMimeType: 'application/json',
         },
       });
 
       console.log("Full Response Object:", JSON.stringify(response, null, 2));
 
       let text;
-      // Try getting text from function if available
       if (typeof response.text === 'function') {
-        try {
-          text = response.text();
-        } catch (e) {
-          console.log("response.text() failed:", e.message);
-        }
+        try { text = response.text(); } catch (e) { console.log("response.text() failed:", e.message); }
       }
-      // Try getting text from property
-      if (!text && response.text) {
-        text = response.text;
-      }
-
-      // Fallback: manually extract from candidates
+      if (!text && response.text) text = response.text;
       if (!text && response.candidates && response.candidates.length > 0) {
         const parts = response.candidates[0].content.parts;
-        if (parts && parts.length > 0) {
-          text = parts.map(p => p.text).join('');
-        }
+        if (parts && parts.length > 0) text = parts.map(p => p.text).join('');
       }
 
       console.log("Extracted text length:", text ? text.length : 0);
 
-      if (!text) {
-        throw new Error("No response text from Gemini");
-      }
+      if (!text) throw new Error("No response text from Gemini");
 
-      // Clean up the response
       let cleanText = text.trim();
-
-      // Remove markdown code blocks if present (even with responseMimeType, sometimes it happens)
+      // Remove markdown code blocks
       cleanText = cleanText.replace(/^```json\s*/, '').replace(/^```\s*/, '').replace(/\s*```$/, '');
 
       // Robust JSON extraction: Find the first JSON array
       const jsonMatch = cleanText.match(/\[\s*\{[\s\S]*\}\s*\]/);
+
       if (jsonMatch) {
         cleanText = jsonMatch[0];
       } else {
-        // Fallback: Try to find just the array brackets if the inner structure check fails
-        const firstOpen = cleanText.indexOf('[');
-        const lastClose = cleanText.lastIndexOf(']');
-        if (firstOpen !== -1 && lastClose !== -1 && lastClose > firstOpen) {
-          cleanText = cleanText.substring(firstOpen, lastClose + 1);
-        }
+        // If no JSON array found, check if it's a refusal or error
+        console.error("No JSON array found in response. Raw text:", cleanText);
+        throw new Error("Model did not return a JSON array. It might have refused the request.");
       }
-
-      console.log("Text to parse (first 100 chars):", cleanText.substring(0, 100) + "...");
-
-      // Validate JSON
-      let matches;
       try {
         matches = JSON.parse(cleanText);
       } catch (e) {
