@@ -70,7 +70,6 @@ async function generateMatches() {
         contents: prompt,
         config: {
           tools: [{ googleSearch: {} }],
-          responseMimeType: 'application/json',
         },
       });
 
