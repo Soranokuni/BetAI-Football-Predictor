@@ -7,7 +7,7 @@ import { fileURLToPath } from 'url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-const MODEL_NAME = 'gemini-2.5-flash-lite';
+const MODEL_NAME = 'gemini-1.5-flash';
 
 async function generateMatches() {
   const apiKey = process.env.GEMINI_API_KEY;
@@ -65,7 +65,7 @@ async function generateMatches() {
     Suggest a "Safe Bet" (high probability, lower odds) and a "Value Bet" (medium/high risk, better odds).
 
     Output Requirement:
-    Return ONLY a valid JSON array. Do not include markdown code blocks (like \`\`\`json).
+    Return ONLY a valid JSON array.
     The structure of each object in the array MUST be:
     {
       "id": "string (unique)",
@@ -94,6 +94,7 @@ async function generateMatches() {
         contents: prompt,
         config: {
           tools: [{ googleSearch: {} }],
+          responseMimeType: 'application/json', // Force JSON output
         },
       });
 
@@ -121,7 +122,7 @@ async function generateMatches() {
         }
       }
 
-      console.log("Extracted text:", text);
+      console.log("Extracted text length:", text ? text.length : 0);
 
       if (!text) {
         throw new Error("No response text from Gemini");
@@ -130,18 +131,15 @@ async function generateMatches() {
       // Clean up the response
       let cleanText = text.trim();
 
+      // Remove markdown code blocks if present (even with responseMimeType, sometimes it happens)
+      cleanText = cleanText.replace(/^```json\s*/, '').replace(/^```\s*/, '').replace(/\s*```$/, '');
+
       // Robust JSON extraction: Find first '[' and last ']'
       const firstOpen = cleanText.indexOf('[');
       const lastClose = cleanText.lastIndexOf(']');
 
       if (firstOpen !== -1 && lastClose !== -1 && lastClose > firstOpen) {
         cleanText = cleanText.substring(firstOpen, lastClose + 1);
-      } else {
-        // Fallback to regex if simple extraction fails
-        const jsonMatch = cleanText.match(/\[[\s\S]*\]/);
-        if (jsonMatch) {
-          cleanText = jsonMatch[0];
-        }
       }
 
       console.log("Text to parse (first 100 chars):", cleanText.substring(0, 100) + "...");
@@ -151,12 +149,17 @@ async function generateMatches() {
       try {
         matches = JSON.parse(cleanText);
       } catch (e) {
-        console.error("JSON Parse Error. Content was:", cleanText);
+        console.error("JSON Parse Error. Full content was:\n", cleanText);
         throw e;
       }
 
       if (!Array.isArray(matches) || matches.length === 0) {
-        throw new Error("Invalid format: Expected an array of matches");
+        // Sometimes it returns an object with a key like "matches": []
+        if (matches && Array.isArray(matches.matches)) {
+          matches = matches.matches;
+        } else {
+          throw new Error("Invalid format: Expected an array of matches");
+        }
       }
 
       // Filter out duplicates and invalid dates
