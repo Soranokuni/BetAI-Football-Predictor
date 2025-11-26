@@ -24,44 +24,60 @@ async function generateMatches() {
   console.log(`Generating matches for date: ${today}, current time: ${now} UTC`);
 
   const prompt = `
-    You are a professional sports data analyst.
+    You are a World-Class Football Bet Builder & Analyst.
     Current Date: ${today}
     Current Time: ${now} UTC
     
-    GOAL: Find valid, confirmed football matches scheduled for TODAY (${today}) that have NOT started yet.
+    GOAL: Identify the best football betting opportunities for TODAY (${today}) by finding confirmed matches and providing deep, data-driven analysis.
     
-    INSTRUCTIONS:
-    1.  **SEARCH**: Use the Google Search tool to find "football matches today ${today}". Look for major leagues (Premier League, La Liga, Serie A, Bundesliga, Ligue 1) first. If none, look for other active leagues (Brasileirão, Liga MX, Saudi Pro League, AFC Champions League, etc.).
-    2.  **VERIFY**: Ensure the matches are actually happening TODAY and have not started (Time > ${now} UTC).
-    3.  **ANALYZE**: For each confirmed match, find recent form (last 5 games) and head-to-head stats.
-    4.  **OUTPUT**: Generate a JSON array containing the match details.
-
-    CONSTRAINTS:
-    -   Return ONLY a valid JSON array.
-    -   Do not include markdown formatting (like \`\`\`json).
-    -   Do not include any conversational text.
-    -   If no matches are found, return an empty array [].
-
-    JSON STRUCTURE (Strictly follow this):
+    WORKFLOW:
+    1.  **DISCOVER**: Use Google Search to find ALL professional football matches scheduled for TODAY.
+        -   Priority: Champions League, Europa League, Top 5 European Leagues (Premier League, La Liga, etc.).
+        -   Secondary: Major Global Leagues (Brasileirão, Liga MX, MLS, Saudi Pro League, J-League).
+        -   Note: If it's a quiet day, find the best available professional matches from lower tiers or smaller nations.
+    2.  **VALIDATE**: Confirm the match is definitely happening TODAY and hasn't started yet (Time > ${now} UTC).
+    3.  **DEEP DIVE**: For each match, analyze:
+        -   **Form**: Last 5 matches for both teams.
+        -   **H2H**: Recent head-to-head history.
+        -   **Context**: Injuries, suspensions, motivation (title race vs relegation), home/away advantage.
+    4.  **RECOMMEND**: Create a "Safe Bet" and a "Value Bet" based on your analysis. Explain *WHY* the user should take these bets.
+    
+    OUTPUT FORMAT:
+    Return ONLY a valid JSON array. No markdown, no intro/outro text.
+    
+    JSON STRUCTURE:
     [
       {
-        "id": "unique_id_string",
+        "id": "team_a_vs_team_b_date",
         "date": "${today}",
         "time": "HH:MM (UTC)",
         "league": "League Name",
         "homeTeam": "Home Team",
         "awayTeam": "Away Team",
-        "fixture_verification_url": "URL of the source",
-        "prediction": { "homeWin": 40, "draw": 30, "awayWin": 30 },
-        "safeBet": { "title": "Bet Name", "odds": "Decimal", "description": "Reason" },
-        "valueBet": { "title": "Bet Name", "odds": "Decimal", "description": "Reason" },
-        "stats": { "homeForm": "W-L-D-W-W", "awayForm": "L-L-D-W-L", "h2h": "Home won last 2", "keyInsights": "Key player injured" },
-        "reasoning": "Brief analysis of the match."
+        "fixture_verification_url": "URL",
+        "prediction": { "homeWin": 45, "draw": 25, "awayWin": 30 },
+        "safeBet": { 
+          "title": "e.g., Home Win or Draw", 
+          "odds": "e.g., 1.30", 
+          "description": "Detailed reason why this is safe (e.g., 'Home team unbeaten in 10 games at home...')" 
+        },
+        "valueBet": { 
+          "title": "e.g., Home Win & BTTS", 
+          "odds": "e.g., 3.50", 
+          "description": "Detailed reason for the value (e.g., 'Away team scores often but leaks goals...')" 
+        },
+        "stats": { 
+          "homeForm": "W-D-W-W-L", 
+          "awayForm": "L-L-D-L-W", 
+          "h2h": "Home team won last 3 meetings", 
+          "keyInsights": "Top scorer returning from injury; Away team has defensive crisis." 
+        },
+        "reasoning": "A professional, persuasive paragraph summarizing the match analysis and justifying the recommended bets. Act like a betting pro giving advice to a client."
       }
     ]
   `;
 
-  const maxRetries = 5;
+  const maxRetries = 7;
   let retryCount = 0;
 
   while (retryCount < maxRetries) {
@@ -75,7 +91,7 @@ async function generateMatches() {
         },
       });
 
-      console.log("Full Response Object:", JSON.stringify(response, null, 2));
+      // console.log("Full Response Object:", JSON.stringify(response, null, 2)); // Commented out to reduce noise
 
       let text;
       if (typeof response.text === 'function') {
