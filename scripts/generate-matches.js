@@ -7,7 +7,7 @@ import { fileURLToPath } from 'url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-const MODEL_NAME = 'gemini-2.5-flash-lite';
+const MODEL_NAME = 'gemini-2.5-flash';
 
 async function generateMatches() {
   const apiKey = process.env.GEMINI_API_KEY;
@@ -24,37 +24,39 @@ async function generateMatches() {
   console.log(`Generating matches for date: ${today}, current time: ${now} UTC`);
 
   const prompt = `
-    You are a sports data analyst.
+    You are a professional sports data analyst.
     Current Date: ${today}
     Current Time: ${now} UTC
     
-    Task: Use the Google Search tool to find scheduled professional football matches for TODAY (${today}).
+    GOAL: Find valid, confirmed football matches scheduled for TODAY (${today}) that have NOT started yet.
     
-    Step 1: Search for "football matches today ${today}" and specific leagues like "Liga MX schedule ${today}", "Brasileirão schedule ${today}", "AFC Champions League schedule ${today}".
-    Step 2: Identify up to 10 confirmed matches that have NOT started yet (time > ${now} UTC).
-    Step 3: For each match, find recent form and head-to-head stats.
-    Step 4: Generate a JSON array with the match details.
+    INSTRUCTIONS:
+    1.  **SEARCH**: Use the Google Search tool to find "football matches today ${today}". Look for major leagues (Premier League, La Liga, Serie A, Bundesliga, Ligue 1) first. If none, look for other active leagues (Brasileirão, Liga MX, Saudi Pro League, AFC Champions League, etc.).
+    2.  **VERIFY**: Ensure the matches are actually happening TODAY and have not started (Time > ${now} UTC).
+    3.  **ANALYZE**: For each confirmed match, find recent form (last 5 games) and head-to-head stats.
+    4.  **OUTPUT**: Generate a JSON array containing the match details.
 
-    CRITICAL:
-    - You MUST use the googleSearch tool. Do not say you cannot access real-time data.
-    - Return ONLY valid JSON. No markdown, no conversational text.
-    - If no matches are found, return an empty array [].
+    CONSTRAINTS:
+    -   Return ONLY a valid JSON array.
+    -   Do not include markdown formatting (like \`\`\`json).
+    -   Do not include any conversational text.
+    -   If no matches are found, return an empty array [].
 
-    JSON Structure:
+    JSON STRUCTURE (Strictly follow this):
     [
       {
-        "id": "unique_string",
+        "id": "unique_id_string",
         "date": "${today}",
         "time": "HH:MM (UTC)",
         "league": "League Name",
         "homeTeam": "Home Team",
         "awayTeam": "Away Team",
-        "fixture_verification_url": "URL",
+        "fixture_verification_url": "URL of the source",
         "prediction": { "homeWin": 40, "draw": 30, "awayWin": 30 },
         "safeBet": { "title": "Bet Name", "odds": "Decimal", "description": "Reason" },
         "valueBet": { "title": "Bet Name", "odds": "Decimal", "description": "Reason" },
-        "stats": { "homeForm": "...", "awayForm": "...", "h2h": "...", "keyInsights": "..." },
-        "reasoning": "..."
+        "stats": { "homeForm": "W-L-D-W-W", "awayForm": "L-L-D-W-L", "h2h": "Home won last 2", "keyInsights": "Key player injured" },
+        "reasoning": "Brief analysis of the match."
       }
     ]
   `;
